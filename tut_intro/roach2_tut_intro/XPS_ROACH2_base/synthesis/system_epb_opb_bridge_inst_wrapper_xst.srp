@@ -1,0 +1,472 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_epb_opb_bridge_inst_wrapper_xst.prj"
+Verilog Include Directory          : {"/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc6vsx475tff1759-1
+Output File Name                   : "../implementation/system_epb_opb_bridge_inst_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_epb_opb_bridge_inst_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/pcores/epb32_opb_bridge_v1_00_a/hdl/verilog/epb32_opb_bridge.v" into library epb32_opb_bridge_v1_00_a
+Parsing module <epb32_opb_bridge>.
+Analyzing Verilog file "/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system_epb_opb_bridge_inst_wrapper.v" into library work
+Parsing module <system_epb_opb_bridge_inst_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <system_epb_opb_bridge_inst_wrapper>.
+
+Elaborating module <epb32_opb_bridge>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_epb_opb_bridge_inst_wrapper>.
+    Related source file is "/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system_epb_opb_bridge_inst_wrapper.v".
+    Summary:
+	no macro.
+Unit <system_epb_opb_bridge_inst_wrapper> synthesized.
+
+Synthesizing Unit <epb32_opb_bridge>.
+    Related source file is "/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/pcores/epb32_opb_bridge_v1_00_a/hdl/verilog/epb32_opb_bridge.v".
+WARNING:Xst:647 - Input <OPB_MGrant> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <cmnd_got_reg>.
+    Found 1-bit register for signal <epb_rdy_int>.
+    Found 1-bit register for signal <resp_ack_reg>.
+    Found 1-bit register for signal <epb_data_oen_reg>.
+    Found 4-bit register for signal <epb_be_n_reg>.
+    Found 25-bit register for signal <epb_addr_reg>.
+    Found 32-bit register for signal <epb_data_i_reg>.
+    Found 1-bit register for signal <epb_r_w_n_reg>.
+    Found 1-bit register for signal <M_select_reg>.
+    Found 1-bit register for signal <cmnd_ack_reg>.
+    Found 1-bit register for signal <resp_got_reg>.
+    Found 32-bit register for signal <OPB_DBus_reg>.
+    Found 1-bit register for signal <internal_timeout_reg>.
+    Found 10-bit register for signal <timeout_counter>.
+    Found 1-bit register for signal <resp_got_retimed>.
+    Found 1-bit register for signal <resp_got>.
+    Found 1-bit register for signal <resp_ack_retimed>.
+    Found 1-bit register for signal <resp_ack>.
+    Found 1-bit register for signal <cmnd_got_retimed>.
+    Found 1-bit register for signal <cmnd_got>.
+    Found 1-bit register for signal <cmnd_ack_retimed>.
+    Found 1-bit register for signal <cmnd_ack>.
+    Found 1-bit register for signal <prev_cs_n>.
+    Found 10-bit adder for signal <timeout_counter[9]_GND_2_o_add_18_OUT> created at line 192.
+    Found 1-bit comparator not equal for signal <n0002> created at line 51
+    Found 10-bit comparator lessequal for signal <n0060> created at line 200
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred 121 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   3 Multiplexer(s).
+Unit <epb32_opb_bridge> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 10-bit adder                                          : 1
+# Registers                                            : 23
+ 1-bit register                                        : 18
+ 10-bit register                                       : 1
+ 25-bit register                                       : 1
+ 32-bit register                                       : 2
+ 4-bit register                                        : 1
+# Comparators                                          : 2
+ 1-bit comparator not equal                            : 1
+ 10-bit comparator lessequal                           : 1
+# Multiplexers                                         : 3
+ 1-bit 2-to-1 multiplexer                              : 2
+ 32-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <epb32_opb_bridge>.
+The following registers are absorbed into counter <timeout_counter>: 1 register on signal <timeout_counter>.
+Unit <epb32_opb_bridge> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 10-bit up counter                                     : 1
+# Registers                                            : 111
+ Flip-Flops                                            : 111
+# Comparators                                          : 2
+ 1-bit comparator not equal                            : 1
+ 10-bit comparator lessequal                           : 1
+# Multiplexers                                         : 3
+ 1-bit 2-to-1 multiplexer                              : 2
+ 32-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system_epb_opb_bridge_inst_wrapper> ...
+
+Optimizing unit <epb32_opb_bridge> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_epb_opb_bridge_inst_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 121
+ Flip-Flops                                            : 121
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_epb_opb_bridge_inst_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 82
+#      GND                         : 1
+#      INV                         : 5
+#      LUT1                        : 9
+#      LUT2                        : 37
+#      LUT3                        : 4
+#      LUT4                        : 3
+#      LUT5                        : 2
+#      LUT6                        : 1
+#      MUXCY                       : 9
+#      VCC                         : 1
+#      XORCY                       : 10
+# FlipFlops/Latches                : 121
+#      FD                          : 73
+#      FDR                         : 16
+#      FDRE                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vsx475tff1759-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             121  out of  595200     0%  
+ Number of Slice LUTs:                   61  out of  297600     0%  
+    Number used as Logic:                61  out of  297600     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    125
+   Number with an unused Flip Flop:       4  out of    125     3%  
+   Number with an unused LUT:            64  out of    125    51%  
+   Number of fully used LUT-FF pairs:    57  out of    125    45%  
+   Number of unique control sets:         6
+
+IO Utilization: 
+ Number of IOs:                         212
+ Number of bonded IOBs:                   0  out of    840     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+--------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                      | Load  |
+-----------------------------------+--------------------------------------------+-------+
+OPB_Clk                            | NONE(epb_opb_bridge_inst/timeout_counter_0)| 112   |
+epb_clk                            | NONE(epb_opb_bridge_inst/resp_ack_reg)     | 9     |
+-----------------------------------+--------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 1.766ns (Maximum Frequency: 566.251MHz)
+   Minimum input arrival time before clock: 1.259ns
+   Maximum output required time after clock: 1.101ns
+   Maximum combinational path delay: 0.160ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'OPB_Clk'
+  Clock period: 1.766ns (frequency: 566.251MHz)
+  Total number of paths / destination ports: 114 / 58
+-------------------------------------------------------------------------
+Delay:               1.766ns (Levels of Logic = 1)
+  Source:            epb_opb_bridge_inst/M_select_reg (FF)
+  Destination:       epb_opb_bridge_inst/timeout_counter_0 (FF)
+  Source Clock:      OPB_Clk rising
+  Destination Clock: OPB_Clk rising
+
+  Data Path: epb_opb_bridge_inst/M_select_reg to epb_opb_bridge_inst/timeout_counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.375   0.431  epb_opb_bridge_inst/M_select_reg (epb_opb_bridge_inst/M_select_reg)
+     LUT2:I1->O           10   0.068   0.458  epb_opb_bridge_inst/Mcount_timeout_counter_val1 (epb_opb_bridge_inst/Mcount_timeout_counter_val)
+     FDR:R                     0.434          epb_opb_bridge_inst/timeout_counter_0
+    ----------------------------------------
+    Total                      1.766ns (0.877ns logic, 0.889ns route)
+                                       (49.7% logic, 50.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'epb_clk'
+  Clock period: 1.249ns (frequency: 800.641MHz)
+  Total number of paths / destination ports: 12 / 6
+-------------------------------------------------------------------------
+Delay:               1.249ns (Levels of Logic = 1)
+  Source:            epb_opb_bridge_inst/resp_got (FF)
+  Destination:       epb_opb_bridge_inst/epb_data_oen_reg (FF)
+  Source Clock:      epb_clk rising
+  Destination Clock: epb_clk rising
+
+  Data Path: epb_opb_bridge_inst/resp_got to epb_opb_bridge_inst/epb_data_oen_reg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.375   0.795  epb_opb_bridge_inst/resp_got (epb_opb_bridge_inst/resp_got)
+     LUT5:I0->O            1   0.068   0.000  epb_opb_bridge_inst/epb_data_oen_reg_glue_set (epb_opb_bridge_inst/epb_data_oen_reg_glue_set)
+     FDR:D                     0.011          epb_opb_bridge_inst/epb_data_oen_reg
+    ----------------------------------------
+    Total                      1.249ns (0.454ns logic, 0.795ns route)
+                                       (36.3% logic, 63.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'OPB_Clk'
+  Total number of paths / destination ports: 277 / 175
+-------------------------------------------------------------------------
+Offset:              1.259ns (Levels of Logic = 1)
+  Source:            OPB_xferAck (PAD)
+  Destination:       epb_opb_bridge_inst/OPB_DBus_reg_31 (FF)
+  Destination Clock: OPB_Clk rising
+
+  Data Path: OPB_xferAck to epb_opb_bridge_inst/OPB_DBus_reg_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT5:I0->O           34   0.068   0.552  epb_opb_bridge_inst/opb_reply1 (epb_opb_bridge_inst/opb_reply)
+     FDRE:CE                   0.263          epb_opb_bridge_inst/OPB_DBus_reg_0
+    ----------------------------------------
+    Total                      1.259ns (0.707ns logic, 0.552ns route)
+                                       (56.2% logic, 43.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'epb_clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              0.434ns (Levels of Logic = 0)
+  Source:            OPB_Rst (PAD)
+  Destination:       epb_opb_bridge_inst/resp_ack_reg (FF)
+  Destination Clock: epb_clk rising
+
+  Data Path: OPB_Rst to epb_opb_bridge_inst/resp_ack_reg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:R                     0.434          epb_opb_bridge_inst/resp_ack_reg
+    ----------------------------------------
+    Total                      0.434ns (0.434ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'OPB_Clk'
+  Total number of paths / destination ports: 127 / 95
+-------------------------------------------------------------------------
+Offset:              1.087ns (Levels of Logic = 1)
+  Source:            epb_opb_bridge_inst/epb_r_w_n_reg (FF)
+  Destination:       M_DBus<0> (PAD)
+  Source Clock:      OPB_Clk rising
+
+  Data Path: epb_opb_bridge_inst/epb_r_w_n_reg to M_DBus<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              32   0.375   0.644  epb_opb_bridge_inst/epb_r_w_n_reg (epb_opb_bridge_inst/epb_r_w_n_reg)
+     LUT2:I0->O            0   0.068   0.000  epb_opb_bridge_inst/Mmux_M_DBus110 (M_DBus<31>)
+    ----------------------------------------
+    Total                      1.087ns (0.443ns logic, 0.644ns route)
+                                       (40.8% logic, 59.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'epb_clk'
+  Total number of paths / destination ports: 5 / 3
+-------------------------------------------------------------------------
+Offset:              1.101ns (Levels of Logic = 1)
+  Source:            epb_opb_bridge_inst/cmnd_got_reg (FF)
+  Destination:       epb_rdy (PAD)
+  Source Clock:      epb_clk rising
+
+  Data Path: epb_opb_bridge_inst/cmnd_got_reg to epb_rdy
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.375   0.658  epb_opb_bridge_inst/cmnd_got_reg (epb_opb_bridge_inst/cmnd_got_reg)
+     LUT4:I0->O            0   0.068   0.000  epb_opb_bridge_inst/Mmux_epb_rdy11 (epb_rdy)
+    ----------------------------------------
+    Total                      1.101ns (0.443ns logic, 0.658ns route)
+                                       (40.2% logic, 59.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               0.160ns (Levels of Logic = 1)
+  Source:            epb_cs_n (PAD)
+  Destination:       epb_rdy (PAD)
+
+  Data Path: epb_cs_n to epb_rdy
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT4:I2->O            0   0.068   0.000  epb_opb_bridge_inst/Mmux_epb_rdy11 (epb_rdy)
+    ----------------------------------------
+    Total                      0.160ns (0.160ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock OPB_Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+OPB_Clk        |    1.766|         |         |         |
+epb_clk        |    1.055|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock epb_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+OPB_Clk        |    0.945|         |         |         |
+epb_clk        |    1.249|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.44 secs
+ 
+--> 
+
+
+Total memory usage is 415392 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk180</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk270</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk_lock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk2x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk2x90</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk2x180</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk2x270</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk90</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk180</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk270</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk2x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk2x90</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk2x180</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk2x270</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">idelay_rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">clk_200</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">430</arg>: Output port &lt;<arg fmt="%s" index="3">clk_100</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">462</arg>: Output port &lt;<arg fmt="%s" index="3">op_reset_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">reset_block_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_MRequest</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_rdDBus</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_wrDBus</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_pendReq</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_beXfer</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_beAck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_busLock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_dwAck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_dwXfer</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_fwAck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_fwXfer</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_hwAck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_hwXfer</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">470</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_toutSup</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">568</arg>: Output port &lt;<arg fmt="%s" index="3">soft_reset</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sys_block_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">roach2_tut_intro_b/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">roach2_tut_intro_b</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;roach2_tut_intro_b/register_readyRR_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">roach2_tut_intro_counter_ctrl/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">roach2_tut_intro_counter_ctrl</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;roach2_tut_intro_counter_ctrl/register_readyRR_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">roach2_tut_intro_counter_value/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">roach2_tut_intro_counter_value</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;roach2_tut_intro_counter_value/register_readyRR_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">roach2_tut_intro_sum_a_b/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">roach2_tut_intro_sum_a_b</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;roach2_tut_intro_sum_a_b/register_readyRR_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">roach2_tut_intro_b/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">roach2_tut_intro_b</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;roach2_tut_intro_b/register_readyRR_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">roach2_tut_intro_counter_ctrl/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">roach2_tut_intro_counter_ctrl</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;roach2_tut_intro_counter_ctrl/register_readyRR_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">roach2_tut_intro_counter_value/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">roach2_tut_intro_counter_value</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;roach2_tut_intro_counter_value/register_readyRR_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">roach2_tut_intro_sum_a_b/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">roach2_tut_intro_sum_a_b</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;roach2_tut_intro_sum_a_b/register_readyRR_1&gt; </arg>
+</msg>
+
+</messages>
+

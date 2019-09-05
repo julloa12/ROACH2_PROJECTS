@@ -1,0 +1,35 @@
+Release 14.7 ngcbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngcbuild -p
+xc6vsx475tff1759-1 -intstyle silent -i -sd ..
+system_roach2_tut_intro_xsg_core_config_wrapper.ngc
+../system_roach2_tut_intro_xsg_core_config_wrapper
+
+Reading NGO file
+"/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/implementat
+ion/roach2_tut_intro_xsg_core_config_wrapper/system_roach2_tut_intro_xsg_core_co
+nfig_wrapper.ngc" ...
+Loading design module
+"/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/implementat
+ion/roach2_tut_intro_xsg_core_config_wrapper/roach2_tut_intro.ngc"...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGCBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 419296 kilobytes
+
+Writing NGC file "../system_roach2_tut_intro_xsg_core_config_wrapper.ngc" ...
+Total REAL time to NGCBUILD completion:  4 sec
+Total CPU time to NGCBUILD completion:   4 sec
+
+Writing NGCBUILD log file
+"../system_roach2_tut_intro_xsg_core_config_wrapper.blc"...

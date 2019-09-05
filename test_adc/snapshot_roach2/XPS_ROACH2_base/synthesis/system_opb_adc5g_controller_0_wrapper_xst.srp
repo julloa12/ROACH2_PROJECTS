@@ -1,0 +1,555 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_opb_adc5g_controller_0_wrapper_xst.prj"
+Verilog Include Directory          : {"/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc6vsx475tff1759-1
+Output File Name                   : "../implementation/system_opb_adc5g_controller_0_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_opb_adc5g_controller_0_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" into library opb_adc5g_controller_v1_00_a
+Parsing module <opb_adc5g_controller>.
+Analyzing Verilog file "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system_opb_adc5g_controller_0_wrapper.v" into library work
+Parsing module <system_opb_adc5g_controller_0_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <system_opb_adc5g_controller_0_wrapper>.
+
+Elaborating module <opb_adc5g_controller(C_BASEADDR=32'b010000000000000000,C_HIGHADDR=32'b011111111111111111,C_OPB_AWIDTH=32,C_OPB_DWIDTH=32,C_FAMILY="virtex6",INITIAL_CONFIG_MODE_0=0,INITIAL_CONFIG_MODE_1=0)>.
+WARNING:HDLCompiler:872 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 447: Using initial value of adc0_startup_data since it is never assigned
+WARNING:HDLCompiler:872 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 594: Using initial value of adc1_startup_data since it is never assigned
+WARNING:HDLCompiler:1127 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 121: Assignment to adc0_read_data ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 131: Assignment to adc1_read_data ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 353: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 357: Result of 17-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 390: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 393: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:1127 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 379: Assignment to adc0_reset_iob ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 496: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 509: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 519: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 562: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 642: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 655: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 665: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v" Line 708: Result of 6-bit expression is truncated to fit in 5-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_opb_adc5g_controller_0_wrapper>.
+    Related source file is "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system_opb_adc5g_controller_0_wrapper.v".
+    Summary:
+	no macro.
+Unit <system_opb_adc5g_controller_0_wrapper> synthesized.
+
+Synthesizing Unit <opb_adc5g_controller>.
+    Related source file is "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v".
+        C_BASEADDR = 32'b00000000000000010000000000000000
+        C_HIGHADDR = 32'b00000000000000011111111111111111
+        C_OPB_AWIDTH = 32
+        C_OPB_DWIDTH = 32
+        C_FAMILY = "virtex6"
+        INITIAL_CONFIG_MODE_0 = 0
+        INITIAL_CONFIG_MODE_1 = 0
+    Set property "IOB = TRUE" for signal <adc0_reset_iob>.
+    Set property "IOB = TRUE" for signal <adc1_reset_iob>.
+WARNING:Xst:647 - Input <OPB_DBus<24:29>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <OPB_seqAddr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <adc0_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <adc1_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <adc0_reset_reg>.
+    Found 1-bit register for signal <adc1_reset_reg>.
+    Found 1-bit register for signal <adc0_mmcm_psen_reg>.
+    Found 1-bit register for signal <adc1_mmcm_psen_reg>.
+    Found 1-bit register for signal <adc0_config_start_reg>.
+    Found 1-bit register for signal <adc1_config_start_reg>.
+    Found 1-bit register for signal <adc0_tap_rst_reg>.
+    Found 1-bit register for signal <adc1_tap_rst_reg>.
+    Found 5-bit register for signal <adc0_spi_read_time_reg>.
+    Found 5-bit register for signal <adc1_spi_read_time_reg>.
+    Found 5-bit register for signal <adc1_datain_pin_reg>.
+    Found 5-bit register for signal <adc1_datain_tap_reg>.
+    Found 5-bit register for signal <adc0_datain_pin_reg>.
+    Found 5-bit register for signal <adc0_datain_tap_reg>.
+    Found 8-bit register for signal <adc1_config_addr_reg>.
+    Found 16-bit register for signal <adc1_config_data_reg>.
+    Found 8-bit register for signal <adc0_config_addr_reg>.
+    Found 16-bit register for signal <adc0_config_data_reg>.
+    Found 1-bit register for signal <adc0_mmcm_psincdec_reg>.
+    Found 1-bit register for signal <adc1_mmcm_psincdec_reg>.
+    Found 32-bit register for signal <opb_data_out>.
+    Found 16-bit register for signal <adc0_dcm_unlocked_cnt>.
+    Found 16-bit register for signal <adc1_dcm_unlocked_cnt>.
+    Found 8-bit register for signal <adc0_reset_counter>.
+    Found 8-bit register for signal <adc1_reset_counter>.
+    Found 4-bit register for signal <adc0_state>.
+    Found 1-bit register for signal <adc0_config_writing>.
+    Found 1-bit register for signal <adc0_startup_reset>.
+    Found 16-bit register for signal <adc0_read_data_reg>.
+    Found 5-bit register for signal <adc0_config_progress>.
+    Found 16-bit register for signal <adc0_read_data_shift>.
+    Found 24-bit register for signal <adc0_config_data_shift>.
+    Found 1-bit register for signal <adc0_startup>.
+    Found 5-bit register for signal <clk0_counter>.
+    Found 4-bit register for signal <adc1_state>.
+    Found 1-bit register for signal <adc1_config_writing>.
+    Found 1-bit register for signal <adc1_startup_reset>.
+    Found 16-bit register for signal <adc1_read_data_reg>.
+    Found 5-bit register for signal <adc1_config_progress>.
+    Found 16-bit register for signal <adc1_read_data_shift>.
+    Found 24-bit register for signal <adc1_config_data_shift>.
+    Found 1-bit register for signal <adc1_startup>.
+    Found 5-bit register for signal <clk1_counter>.
+    Found 1-bit register for signal <opb_ack>.
+    Found finite state machine <FSM_0> for signal <adc1_state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 34                                             |
+    | Inputs             | 10                                             |
+    | Outputs            | 12                                             |
+    | Clock              | OPB_Clk (rising_edge)                          |
+    | Reset              | OPB_Rst (positive)                             |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0001                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found finite state machine <FSM_1> for signal <adc0_state>.
+    -----------------------------------------------------------------------
+    | States             | 9                                              |
+    | Transitions        | 25                                             |
+    | Inputs             | 9                                              |
+    | Outputs            | 12                                             |
+    | Clock              | OPB_Clk (rising_edge)                          |
+    | Reset              | OPB_Rst (positive)                             |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0001                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 32-bit subtractor for signal <opb_addr> created at line 97.
+    Found 16-bit adder for signal <adc0_dcm_unlocked_cnt[15]_GND_2_o_add_95_OUT> created at line 353.
+    Found 16-bit adder for signal <adc1_dcm_unlocked_cnt[15]_GND_2_o_add_97_OUT> created at line 357.
+    Found 5-bit adder for signal <adc0_config_progress[4]_GND_2_o_add_138_OUT> created at line 519.
+    Found 5-bit adder for signal <clk0_counter[4]_GND_2_o_add_171_OUT> created at line 562.
+    Found 5-bit adder for signal <adc1_config_progress[4]_GND_2_o_add_204_OUT> created at line 665.
+    Found 5-bit adder for signal <clk1_counter[4]_GND_2_o_add_237_OUT> created at line 708.
+    Found 8-bit subtractor for signal <GND_2_o_GND_2_o_sub_106_OUT<7:0>> created at line 390.
+    Found 8-bit subtractor for signal <GND_2_o_GND_2_o_sub_109_OUT<7:0>> created at line 393.
+    Found 32-bit comparator lessequal for signal <n0000> created at line 96
+    Found 32-bit comparator lessequal for signal <n0002> created at line 96
+    Found 5-bit comparator equal for signal <clk0_rd_time> created at line 569
+    Found 5-bit comparator equal for signal <clk1_rd_time> created at line 715
+    Summary:
+	inferred   9 Adder/Subtractor(s).
+	inferred 307 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  93 Multiplexer(s).
+	inferred   2 Finite State Machine(s).
+Unit <opb_adc5g_controller> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 9
+ 16-bit adder                                          : 2
+ 32-bit subtractor                                     : 1
+ 5-bit adder                                           : 4
+ 8-bit subtractor                                      : 2
+# Registers                                            : 42
+ 1-bit register                                        : 17
+ 16-bit register                                       : 8
+ 24-bit register                                       : 2
+ 32-bit register                                       : 1
+ 5-bit register                                        : 10
+ 8-bit register                                        : 4
+# Comparators                                          : 4
+ 32-bit comparator lessequal                           : 2
+ 5-bit comparator equal                                : 2
+# Multiplexers                                         : 93
+ 1-bit 2-to-1 multiplexer                              : 74
+ 16-bit 2-to-1 multiplexer                             : 2
+ 24-bit 2-to-1 multiplexer                             : 4
+ 32-bit 2-to-1 multiplexer                             : 9
+ 5-bit 2-to-1 multiplexer                              : 2
+ 8-bit 2-to-1 multiplexer                              : 2
+# FSMs                                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <opb_adc5g_controller>.
+The following registers are absorbed into counter <clk0_counter>: 1 register on signal <clk0_counter>.
+The following registers are absorbed into counter <clk1_counter>: 1 register on signal <clk1_counter>.
+The following registers are absorbed into counter <adc0_config_progress>: 1 register on signal <adc0_config_progress>.
+The following registers are absorbed into counter <adc1_config_progress>: 1 register on signal <adc1_config_progress>.
+The following registers are absorbed into counter <adc0_dcm_unlocked_cnt>: 1 register on signal <adc0_dcm_unlocked_cnt>.
+The following registers are absorbed into counter <adc1_dcm_unlocked_cnt>: 1 register on signal <adc1_dcm_unlocked_cnt>.
+The following registers are absorbed into counter <adc0_reset_counter>: 1 register on signal <adc0_reset_counter>.
+The following registers are absorbed into counter <adc1_reset_counter>: 1 register on signal <adc1_reset_counter>.
+Unit <opb_adc5g_controller> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 6-bit subtractor                                      : 1
+# Counters                                             : 8
+ 16-bit up counter                                     : 2
+ 5-bit up counter                                      : 4
+ 8-bit down counter                                    : 2
+# Registers                                            : 239
+ Flip-Flops                                            : 239
+# Comparators                                          : 4
+ 32-bit comparator lessequal                           : 2
+ 5-bit comparator equal                                : 2
+# Multiplexers                                         : 89
+ 1-bit 2-to-1 multiplexer                              : 74
+ 16-bit 2-to-1 multiplexer                             : 2
+ 24-bit 2-to-1 multiplexer                             : 4
+ 32-bit 2-to-1 multiplexer                             : 9
+# FSMs                                                 : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <opb_adc5g_controller_0/FSM_0> on signal <adc1_state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0010  | 0010
+ 0100  | 0100
+ 0110  | 0110
+ 0011  | 0011
+ 0101  | 0101
+ 0111  | 0111
+ 1000  | 1000
+ 0000  | 0000
+ 0001  | 0001
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <opb_adc5g_controller_0/FSM_1> on signal <adc0_state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0001  | 0001
+ 0010  | 0010
+ 0100  | 0100
+ 0110  | 0110
+ 0011  | 0011
+ 0101  | 0101
+ 0111  | 0111
+ 1000  | 1000
+ 0000  | 0000
+-------------------
+
+Optimizing unit <system_opb_adc5g_controller_0_wrapper> ...
+
+Optimizing unit <opb_adc5g_controller> ...
+WARNING:Xst:1710 - FF/Latch <opb_adc5g_controller_0/adc0_reset_counter_7> (without init value) has a constant value of 0 in block <system_opb_adc5g_controller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adc5g_controller_0/adc0_reset_counter_6> (without init value) has a constant value of 0 in block <system_opb_adc5g_controller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adc5g_controller_0/adc0_reset_counter_5> (without init value) has a constant value of 0 in block <system_opb_adc5g_controller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adc5g_controller_0/adc1_reset_counter_7> (without init value) has a constant value of 0 in block <system_opb_adc5g_controller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adc5g_controller_0/adc1_reset_counter_6> (without init value) has a constant value of 0 in block <system_opb_adc5g_controller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <opb_adc5g_controller_0/adc1_reset_counter_5> (without init value) has a constant value of 0 in block <system_opb_adc5g_controller_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_opb_adc5g_controller_0_wrapper, actual ratio is 0.
+FlipFlop opb_adc5g_controller_0/opb_ack has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 310
+ Flip-Flops                                            : 310
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_opb_adc5g_controller_0_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 559
+#      GND                         : 1
+#      INV                         : 6
+#      LUT1                        : 30
+#      LUT2                        : 45
+#      LUT3                        : 80
+#      LUT4                        : 105
+#      LUT5                        : 71
+#      LUT6                        : 137
+#      MUXCY                       : 38
+#      MUXF7                       : 3
+#      VCC                         : 1
+#      XORCY                       : 42
+# FlipFlops/Latches                : 310
+#      FD                          : 10
+#      FDE                         : 234
+#      FDR                         : 22
+#      FDRE                        : 40
+#      FDS                         : 2
+#      FDSE                        : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vsx475tff1759-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             310  out of  595200     0%  
+ Number of Slice LUTs:                  474  out of  297600     0%  
+    Number used as Logic:               474  out of  297600     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    505
+   Number with an unused Flip Flop:     195  out of    505    38%  
+   Number with an unused LUT:            31  out of    505     6%  
+   Number of fully used LUT-FF pairs:   279  out of    505    55%  
+   Number of unique control sets:        25
+
+IO Utilization: 
+ Number of IOs:                         221
+ Number of bonded IOBs:                   0  out of    840     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                | Load  |
+-----------------------------------+------------------------------------------------------+-------+
+adc1_psclk                         | NONE(opb_adc5g_controller_0/adc1_dcm_unlocked_cnt_15)| 310   |
+-----------------------------------+------------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 2.622ns (Maximum Frequency: 381.388MHz)
+   Minimum input arrival time before clock: 2.560ns
+   Maximum output required time after clock: 1.284ns
+   Maximum combinational path delay: 0.000ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'adc1_psclk'
+  Clock period: 2.622ns (frequency: 381.388MHz)
+  Total number of paths / destination ports: 3660 / 534
+-------------------------------------------------------------------------
+Delay:               2.622ns (Levels of Logic = 3)
+  Source:            opb_adc5g_controller_0/clk0_counter_3 (FF)
+  Destination:       opb_adc5g_controller_0/adc0_state_FSM_FFd2 (FF)
+  Source Clock:      adc1_psclk rising
+  Destination Clock: adc1_psclk rising
+
+  Data Path: opb_adc5g_controller_0/clk0_counter_3 to opb_adc5g_controller_0/adc0_state_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              9   0.375   0.828  opb_adc5g_controller_0/clk0_counter_3 (opb_adc5g_controller_0/clk0_counter_3)
+     LUT5:I0->O            2   0.068   0.423  opb_adc5g_controller_0/clk0_midhigh<4>1 (opb_adc5g_controller_0/clk0_midhigh)
+     LUT6:I5->O            2   0.068   0.781  opb_adc5g_controller_0/adc0_state_FSM_FFd2-In11 (opb_adc5g_controller_0/adc0_state_FSM_FFd2-In11)
+     LUT6:I1->O            1   0.068   0.000  opb_adc5g_controller_0/adc0_state_FSM_FFd2-In3 (opb_adc5g_controller_0/adc0_state_FSM_FFd2-In)
+     FDR:D                     0.011          opb_adc5g_controller_0/adc0_state_FSM_FFd2
+    ----------------------------------------
+    Total                      2.622ns (0.590ns logic, 2.032ns route)
+                                       (22.5% logic, 77.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'adc1_psclk'
+  Total number of paths / destination ports: 3475 / 403
+-------------------------------------------------------------------------
+Offset:              2.560ns (Levels of Logic = 3)
+  Source:            OPB_ABus<14> (PAD)
+  Destination:       opb_adc5g_controller_0/adc0_datain_tap_reg_4 (FF)
+  Destination Clock: adc1_psclk rising
+
+  Data Path: OPB_ABus<14> to opb_adc5g_controller_0/adc0_datain_tap_reg_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT6:I0->O            7   0.068   0.818  opb_adc5g_controller_0/addr_match_opb_ack_AND_3_o1 (opb_adc5g_controller_0/addr_match_opb_ack_AND_3_o1)
+     LUT6:I0->O            9   0.068   0.470  opb_adc5g_controller_0/_n0930_inv11 (opb_adc5g_controller_0/_n0930_inv1)
+     LUT6:I5->O            5   0.068   0.426  opb_adc5g_controller_0/_n0914_inv1 (opb_adc5g_controller_0/_n0914_inv)
+     FDE:CE                    0.263          opb_adc5g_controller_0/adc0_datain_tap_reg_0
+    ----------------------------------------
+    Total                      2.560ns (0.846ns logic, 1.714ns route)
+                                       (33.0% logic, 67.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'adc1_psclk'
+  Total number of paths / destination ports: 121 / 69
+-------------------------------------------------------------------------
+Offset:              1.284ns (Levels of Logic = 1)
+  Source:            opb_adc5g_controller_0/adc0_state_FSM_FFd1 (FF)
+  Destination:       adc0_adc3wire_clk (PAD)
+  Source Clock:      adc1_psclk rising
+
+  Data Path: opb_adc5g_controller_0/adc0_state_FSM_FFd1 to adc0_adc3wire_clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             11   0.375   0.841  opb_adc5g_controller_0/adc0_state_FSM_FFd1 (opb_adc5g_controller_0/adc0_state_FSM_FFd1)
+     LUT5:I0->O            0   0.068   0.000  opb_adc5g_controller_0/adc0_adc3wire_clk1 (adc0_adc3wire_clk)
+    ----------------------------------------
+    Total                      1.284ns (0.443ns logic, 0.841ns route)
+                                       (34.5% logic, 65.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               0.000ns (Levels of Logic = 0)
+  Source:            OPB_Clk (PAD)
+  Destination:       adc0_psclk (PAD)
+
+  Data Path: OPB_Clk to adc0_psclk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    ----------------------------------------
+    Total                      0.000ns (0.000ns logic, 0.000ns route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock adc1_psclk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adc1_psclk     |    2.622|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.46 secs
+ 
+--> 
+
+
+Total memory usage is 418616 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   27 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

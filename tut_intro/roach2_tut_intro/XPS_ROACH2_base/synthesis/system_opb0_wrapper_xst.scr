@@ -1,0 +1,14 @@
+set -tmpdir /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/synthesis/xst_temp_dir/
+run
+-opt_mode speed
+-netlist_hierarchy as_optimized
+-opt_level 1
+-p xc6vsx475tff1759-1
+-top system_opb0_wrapper
+-ifmt MIXED
+-ifn system_opb0_wrapper_xst.prj
+-ofn ../implementation/system_opb0_wrapper.ngc
+-hierarchy_separator /
+-iobuf NO
+-sd {../implementation}
+-vlgincdir {"/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }

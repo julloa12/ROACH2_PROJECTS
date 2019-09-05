@@ -1,0 +1,2 @@
+VERILOG adc_mkid_4x_interface_v2_00_a /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/pcores/adc_mkid_4x_interface_v2_00_a/hdl/verilog/adc_mkid_4x_interface.v
+verilog work ../hdl/system_snap2in_adc_mkid_4x_wrapper.v

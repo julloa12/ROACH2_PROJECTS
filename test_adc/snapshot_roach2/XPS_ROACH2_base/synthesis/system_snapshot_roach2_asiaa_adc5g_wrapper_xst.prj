@@ -1,0 +1,4 @@
+verilog adc5g_dmux1_interface_v1_00_a /home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/verilog/gc2bin.v
+vhdl adc5g_dmux1_interface_v1_00_a /home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/fifo_generator_v5_3.vhd
+vhdl adc5g_dmux1_interface_v1_00_a /home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd
+vhdl work ../hdl/system_snapshot_roach2_asiaa_adc5g_wrapper.vhd

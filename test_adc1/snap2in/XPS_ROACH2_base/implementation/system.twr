@@ -1,0 +1,172 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -e 200 -xml system.twx
+system.ncd system.pcf
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,package,speed:     xc6vsx475t,ff1759,C,-1 (PRODUCTION 1.17 2013-10-13)
+Report level:             error report, limited to 200 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET "snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/drdy_clk" 
+PERIOD = 3.6364 ns HIGH         50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   2.334ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net 
+"snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/dcm_clk2x" derived from  NET 
+"snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/drdy_clk" PERIOD = 3.6364 ns HIGH      
+  50%; 
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   1.429ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net 
+"snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/dcm_clk" derived from  NET 
+"snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/drdy_clk" PERIOD = 3.6364 ns HIGH      
+  50%;  multiplied by 2.00 to 7.273 nS   
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 1876 paths analyzed, 969 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.502ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_sys_clk_n = PERIOD TIMEGRP "sys_clk_n" 100 MHz HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   4.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_epb_clk_in = PERIOD TIMEGRP "epb_clk_in" 67 MHz HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 10120 paths analyzed, 1214 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   8.107ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_infrastructure_inst_infrastructure_inst_clk_200_mmcm = 
+PERIOD TIMEGRP         "infrastructure_inst_infrastructure_inst_clk_200_mmcm" 
+TS_sys_clk_n *         2 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   1.429ns.
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/drdy_clk
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|snap2in_adc_mkid_4x/snap2in_adc|      3.636ns|      2.334ns|      3.251ns|            0|            0|            0|         1876|
+|_mkid_4x/drdy_clk              |             |             |             |             |             |             |             |
+| snap2in_adc_mkid_4x/snap2in_ad|      3.636ns|      1.429ns|          N/A|            0|            0|            0|            0|
+| c_mkid_4x/dcm_clk2x           |             |             |             |             |             |             |             |
+| snap2in_adc_mkid_4x/snap2in_ad|      7.273ns|      6.502ns|          N/A|            0|            0|         1876|            0|
+| c_mkid_4x/dcm_clk             |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_sys_clk_n
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_n                   |     10.000ns|      4.000ns|      2.858ns|            0|            0|            0|            0|
+| TS_infrastructure_inst_infrast|      5.000ns|      1.429ns|          N/A|            0|            0|            0|            0|
+| ructure_inst_clk_200_mmcm     |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock adcmkid0_DRDY_I_n
+-----------------+---------+---------+---------+---------+
+                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock     |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------+---------+---------+---------+---------+
+adcmkid0_DRDY_I_n|    6.363|         |    3.251|         |
+adcmkid0_DRDY_I_p|    6.363|         |    3.251|         |
+-----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock adcmkid0_DRDY_I_p
+-----------------+---------+---------+---------+---------+
+                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock     |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-----------------+---------+---------+---------+---------+
+adcmkid0_DRDY_I_n|    6.363|         |    3.251|         |
+adcmkid0_DRDY_I_p|    6.363|         |    3.251|         |
+-----------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock epb_clk_in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+epb_clk_in     |    8.107|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 11996 paths, 0 nets, and 3012 connections
+
+Design statistics:
+   Minimum period:   8.107ns   (Maximum frequency: 123.350MHz)
+
+
+Analysis completed Tue Sep  3 13:49:23 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 1179 MB
+
+
+

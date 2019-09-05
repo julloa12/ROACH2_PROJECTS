@@ -1,0 +1,19 @@
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system.ngc 1567536233
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_epb_opb_bridge_inst_wrapper.ngc 1567536060
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_snap2in_adc_mkid_4x_wrapper.ngc 1567536105
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_infrastructure_inst_wrapper.ngc 1567536027
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_epb_infrastructure_inst_wrapper.ngc 1567536071
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_opb0_wrapper.ngc 1567536048
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_snap2in_xsg_core_config_wrapper.ngc 1567536210
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_sys_block_inst_wrapper.ngc 1567536082
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_snap2in_adcsnap0_bram_ramblk_wrapper.ngc 1567536216
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_snap2in_adcsnap0_ctrl_wrapper.ngc 1567536140
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_snap2in_adcsnap0_status_wrapper.ngc 1567536151
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_snap2in_adcsnap0_trig_offset_wrapper.ngc 1567536162
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_snap2in_gpio_wrapper.ngc 1567536172
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_snap2in_gpio1_wrapper.ngc 1567536181
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_snap2in_gpio2_wrapper.ngc 1567536193
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_snap2in_gpio3_wrapper.ngc 1567536203
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_reset_block_inst_wrapper.ngc 1567536036
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/system_snap2in_adcsnap0_bram_wrapper.ngc 1567536130
+OK

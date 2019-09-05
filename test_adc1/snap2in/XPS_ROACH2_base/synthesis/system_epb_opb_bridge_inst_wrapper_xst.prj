@@ -1,0 +1,2 @@
+verilog epb32_opb_bridge_v1_00_a /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/pcores/epb32_opb_bridge_v1_00_a/hdl/verilog/epb32_opb_bridge.v
+verilog work ../hdl/system_epb_opb_bridge_inst_wrapper.v

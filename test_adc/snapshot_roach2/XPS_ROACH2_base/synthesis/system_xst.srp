@@ -1,0 +1,643 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_xst.prj"
+Verilog Include Directory          : {"/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc6vsx475tff1759-1
+Output File Name                   : "../implementation/system.ngc"
+
+---- Source Options
+Top Module Name                    : system
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 10000
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" into library work
+Parsing entity <system>.
+Parsing architecture <STRUCTURE> of entity <system>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <system> (architecture <STRUCTURE>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system>.
+    Related source file is "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd".
+    Set property "BOX_TYPE = user_black_box" for instance <opb_adc5g_controller_0>.
+    Set property "BOX_TYPE = user_black_box" for instance <infrastructure_inst>.
+    Set property "BOX_TYPE = user_black_box" for instance <reset_block_inst>.
+    Set property "BOX_TYPE = user_black_box" for instance <opb0>.
+    Set property "BOX_TYPE = user_black_box" for instance <epb_opb_bridge_inst>.
+    Set property "BOX_TYPE = user_black_box" for instance <epb_infrastructure_inst>.
+    Set property "BOX_TYPE = user_black_box" for instance <sys_block_inst>.
+    Set property "BOX_TYPE = user_black_box" for instance <snapshot_roach2_XSG_core_config>.
+    Set property "BOX_TYPE = user_black_box" for instance <snapshot_roach2_asiaa_adc5g>.
+    Set property "BOX_TYPE = user_black_box" for instance <snapshot_roach2_snapshot_bram_ramblk>.
+    Set property "BOX_TYPE = user_black_box" for instance <snapshot_roach2_snapshot_bram>.
+    Set property "BOX_TYPE = user_black_box" for instance <snapshot_roach2_snapshot_ctrl>.
+    Set property "BOX_TYPE = user_black_box" for instance <snapshot_roach2_snapshot_status>.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 544: Output port <adc1_datain_pin> of the instance <opb_adc5g_controller_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 544: Output port <adc1_datain_tap> of the instance <opb_adc5g_controller_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 544: Output port <adc1_adc3wire_clk> of the instance <opb_adc5g_controller_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 544: Output port <adc1_adc3wire_data> of the instance <opb_adc5g_controller_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 544: Output port <adc1_adc3wire_spi_rst> of the instance <opb_adc5g_controller_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 544: Output port <adc1_modepin> of the instance <opb_adc5g_controller_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 544: Output port <adc1_reset> of the instance <opb_adc5g_controller_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 544: Output port <adc1_dcm_reset> of the instance <opb_adc5g_controller_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 544: Output port <adc1_psclk> of the instance <opb_adc5g_controller_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 544: Output port <adc1_psen> of the instance <opb_adc5g_controller_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 544: Output port <adc1_psincdec> of the instance <opb_adc5g_controller_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 544: Output port <adc1_tap_rst> of the instance <opb_adc5g_controller_0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <sys_clk90> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <sys_clk180> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <sys_clk270> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <sys_clk_lock> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <sys_clk2x> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <sys_clk2x90> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <sys_clk2x180> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <sys_clk2x270> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <aux_clk> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <aux_clk90> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <aux_clk180> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <aux_clk270> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <aux_clk2x> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <aux_clk2x90> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <aux_clk2x180> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <aux_clk2x270> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <idelay_rdy> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <clk_200> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 597: Output port <clk_100> of the instance <infrastructure_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 629: Output port <op_reset_o> of the instance <reset_block_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_MRequest> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_rdDBus> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_wrDBus> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_pendReq> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_beXfer> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_beAck> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_busLock> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_dwAck> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_dwXfer> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_fwAck> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_fwXfer> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_hwAck> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_hwXfer> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 637: Output port <OPB_toutSup> of the instance <opb0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 735: Output port <soft_reset> of the instance <sys_block_inst> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 784: Output port <adc_reset_o> of the instance <snapshot_roach2_asiaa_adc5g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 784: Output port <ctrl_clk90_out> of the instance <snapshot_roach2_asiaa_adc5g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 784: Output port <ctrl_clk180_out> of the instance <snapshot_roach2_asiaa_adc5g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd" line 784: Output port <ctrl_clk270_out> of the instance <snapshot_roach2_asiaa_adc5g> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <system> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <../implementation/system_epb_opb_bridge_inst_wrapper.ngc>.
+Reading core <../implementation/system_snapshot_roach2_asiaa_adc5g_wrapper.ngc>.
+Reading core <../implementation/system_infrastructure_inst_wrapper.ngc>.
+Reading core <../implementation/system_opb_adc5g_controller_0_wrapper.ngc>.
+Reading core <../implementation/system_epb_infrastructure_inst_wrapper.ngc>.
+Reading core <../implementation/system_opb0_wrapper.ngc>.
+Reading core <../implementation/system_snapshot_roach2_xsg_core_config_wrapper.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <../implementation/system_sys_block_inst_wrapper.ngc>.
+Reading core <../implementation/system_snapshot_roach2_snapshot_bram_ramblk_wrapper.ngc>.
+Reading core <../implementation/system_snapshot_roach2_snapshot_ctrl_wrapper.ngc>.
+Reading core <../implementation/system_snapshot_roach2_snapshot_status_wrapper.ngc>.
+Reading core <../implementation/system_reset_block_inst_wrapper.ngc>.
+Reading core <../implementation/system_snapshot_roach2_snapshot_bram_wrapper.ngc>.
+Loading core <system_epb_opb_bridge_inst_wrapper> for timing and area information for instance <epb_opb_bridge_inst>.
+Loading core <system_snapshot_roach2_asiaa_adc5g_wrapper> for timing and area information for instance <snapshot_roach2_asiaa_adc5g>.
+Loading core <system_infrastructure_inst_wrapper> for timing and area information for instance <infrastructure_inst>.
+Loading core <system_opb_adc5g_controller_0_wrapper> for timing and area information for instance <opb_adc5g_controller_0>.
+Loading core <system_epb_infrastructure_inst_wrapper> for timing and area information for instance <epb_infrastructure_inst>.
+Loading core <system_opb0_wrapper> for timing and area information for instance <opb0>.
+Loading core <system_snapshot_roach2_xsg_core_config_wrapper> for timing and area information for instance <snapshot_roach2_XSG_core_config>.
+Loading core <system_sys_block_inst_wrapper> for timing and area information for instance <sys_block_inst>.
+Loading core <system_snapshot_roach2_snapshot_bram_ramblk_wrapper> for timing and area information for instance <snapshot_roach2_snapshot_bram_ramblk>.
+Loading core <system_snapshot_roach2_snapshot_ctrl_wrapper> for timing and area information for instance <snapshot_roach2_snapshot_ctrl>.
+Loading core <system_snapshot_roach2_snapshot_status_wrapper> for timing and area information for instance <snapshot_roach2_snapshot_status>.
+Loading core <system_reset_block_inst_wrapper> for timing and area information for instance <reset_block_inst>.
+Loading core <system_snapshot_roach2_snapshot_bram_wrapper> for timing and area information for instance <snapshot_roach2_snapshot_bram>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system, actual ratio is 0.
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <BU2> is equivalent to the following 2 FFs/Latches : <U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <opb_adc5g_controller_0/opb_ack> in Unit <opb_adc5g_controller_0> is equivalent to the following FF/Latch : <opb_adc5g_controller_0/opb_ack_1> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_1> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_2> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_3> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_4> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_5> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_6> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_7> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_8> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_9> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_0> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_snapshot_status/register_readyRR> in Unit <snapshot_roach2_snapshot_status> is equivalent to the following FF/Latch : <snapshot_roach2_snapshot_status/register_readyRR_1> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <BU2> is equivalent to the following 2 FFs/Latches : <U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <BU2> is equivalent to the following 2 FFs/Latches : <U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2> in Unit <BU2> is equivalent to the following 2 FFs/Latches : <U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1> <U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <opb_adc5g_controller_0/opb_ack> in Unit <opb_adc5g_controller_0> is equivalent to the following FF/Latch : <opb_adc5g_controller_0/opb_ack_1> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_1> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_2> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_3> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_4> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_5> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_6> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_7> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_8> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_9> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_0> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_1> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_2> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_3> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_4> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_5> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_6> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_7> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_8> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_9> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_0> in Unit <snapshot_roach2_XSG_core_config> is equivalent to the following FF/Latch : <snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2> 
+INFO:Xst:2260 - The FF/Latch <snapshot_roach2_snapshot_status/register_readyRR> in Unit <snapshot_roach2_snapshot_status> is equivalent to the following FF/Latch : <snapshot_roach2_snapshot_status/register_readyRR_1> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1656
+#      GND                         : 16
+#      INV                         : 40
+#      LUT1                        : 107
+#      LUT2                        : 196
+#      LUT3                        : 247
+#      LUT4                        : 228
+#      LUT5                        : 194
+#      LUT6                        : 309
+#      MUXCY                       : 158
+#      MUXF7                       : 3
+#      VCC                         : 15
+#      XORCY                       : 143
+# FlipFlops/Latches                : 2178
+#      FD                          : 585
+#      FDC                         : 51
+#      FDCE                        : 201
+#      FDE                         : 726
+#      FDP                         : 11
+#      FDPE                        : 8
+#      FDR                         : 467
+#      FDRE                        : 109
+#      FDS                         : 3
+#      FDSE                        : 17
+# RAMS                             : 28
+#      RAM32M                      : 24
+#      RAMB36E1                    : 4
+# Shift Registers                  : 135
+#      SRL16                       : 1
+#      SRLC16E                     : 134
+# Clock Buffers                    : 16
+#      BUFG                        : 16
+# IO Buffers                       : 110
+#      IBUF                        : 33
+#      IBUFDS                      : 2
+#      IBUFDS_LVDS_25              : 32
+#      IBUFG                       : 1
+#      IBUFGDS                     : 2
+#      IOBUF                       : 32
+#      OBUF                        : 8
+# Others                           : 69
+#      BUFR                        : 1
+#      IDELAYCTRL                  : 1
+#      IODELAYE1                   : 32
+#      ISERDESE1                   : 32
+#      MMCM_ADV                    : 3
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vsx475tff1759-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            2178  out of  595200     0%  
+ Number of Slice LUTs:                 1552  out of  297600     0%  
+    Number used as Logic:              1321  out of  297600     0%  
+    Number used as Memory:              231  out of  122240     0%  
+       Number used as RAM:               96
+       Number used as SRL:              135
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2895
+   Number with an unused Flip Flop:     717  out of   2895    24%  
+   Number with an unused LUT:          1343  out of   2895    46%  
+   Number of fully used LUT-FF pairs:   835  out of   2895    28%  
+   Number of unique control sets:       118
+
+IO Utilization: 
+ Number of IOs:                         146
+ Number of bonded IOBs:                  73  out of    840     8%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                4  out of   1064     0%  
+    Number using Block RAM only:          4
+ Number of BUFG/BUFGCTRLs:               16  out of     32    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+epb_clk_in                         | IBUFG+BUFG             | 623   |
+adc0clk_p                          | MMCM_ADV:CLKOUT1       | 1711  |
+adc0clk_p                          | IBUFDS                 | 1     |
+sys_clk_p                          | MMCM_ADV:CLKOUT1       | 11    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+Control Signal                                                                                                                                                                       | Buffer(FF name)                                                                                                                                                                                                                 | Load  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+snapshot_roach2_snapshot_bram_ramblk/snapshot_roach2_snapshot_bram_ramblk/bram_inst/N1(snapshot_roach2_snapshot_bram_ramblk/snapshot_roach2_snapshot_bram_ramblk/bram_inst/XST_GND:G)| NONE(snapshot_roach2_snapshot_bram_ramblk/snapshot_roach2_snapshot_bram_ramblk/bram_inst/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_noinit.ram/NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram)| 16    |
+opb_adc5g_controller_0/adc0_reset(opb_adc5g_controller_0/opb_adc5g_controller_0/adc0_reset1:O)                                                                                       | NONE(snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/DIVBUF)                                                                                                                                                            | 1     |
+snapshot_roach2_asiaa_adc5g/N1(snapshot_roach2_asiaa_adc5g/XST_VCC:P)                                                                                                                | NONE(snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/DIVBUF)                                                                                                                                                            | 1     |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 4.607ns (Maximum Frequency: 217.040MHz)
+   Minimum input arrival time before clock: 0.720ns
+   Maximum output required time after clock: 1.794ns
+   Maximum combinational path delay: 1.084ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'epb_clk_in'
+  Clock period: 4.607ns (frequency: 217.040MHz)
+  Total number of paths / destination ports: 14989 / 1142
+-------------------------------------------------------------------------
+Delay:               4.607ns (Levels of Logic = 10)
+  Source:            epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_0 (FF)
+  Destination:       opb_adc5g_controller_0/opb_adc5g_controller_0/adc1_tap_rst_reg (FF)
+  Source Clock:      epb_clk_in rising
+  Destination Clock: epb_clk_in rising
+
+  Data Path: epb_opb_bridge_inst/epb_opb_bridge_inst/epb_addr_reg_0 to opb_adc5g_controller_0/opb_adc5g_controller_0/adc1_tap_rst_reg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              91   0.375   0.943  epb_opb_bridge_inst/epb_addr_reg_0 (M_ABus<29>)
+     end scope: 'epb_opb_bridge_inst:M_ABus<29>'
+     begin scope: 'opb0:M_ABus<29>'
+     end scope: 'opb0:OPB_ABus<29>'
+     begin scope: 'sys_block_inst:OPB_ABus<29>'
+     LUT6:I0->O            1   0.068   0.417  sys_block_inst/Mmux_Sl_DBus25_SW0 (N4)
+     LUT3:I2->O            2   0.068   0.423  sys_block_inst/Mmux_Sl_DBus25 (Sl_DBus<31>)
+     end scope: 'sys_block_inst:Sl_DBus<31>'
+     begin scope: 'opb0:Sl_DBus<63>'
+     LUT6:I5->O            7   0.068   0.457  opb0/OPB_DBus_I/USE_LUT_OR_GEN.OR_PROCESS.yi<2>1 (OPB_DBus<31>)
+     end scope: 'opb0:OPB_DBus<31>'
+     begin scope: 'opb_adc5g_controller_0:OPB_DBus<31>'
+     LUT2:I1->O            4   0.068   0.795  opb_adc5g_controller_0/OPB_BE<3>1 (opb_adc5g_controller_0/OPB_BE<3>_mmx_out)
+     LUT6:I1->O            1   0.068   0.778  opb_adc5g_controller_0/Mmux_GND_2_o_opb_addr[5]_MUX_122_o111 (opb_adc5g_controller_0/GND_2_o_opb_addr[5]_MUX_123_o)
+     LUT6:I0->O            1   0.068   0.000  opb_adc5g_controller_0/adc0_tap_rst_reg_rstpot (opb_adc5g_controller_0/adc0_tap_rst_reg_rstpot)
+     FD:D                      0.011          opb_adc5g_controller_0/adc0_tap_rst_reg
+    ----------------------------------------
+    Total                      4.607ns (0.794ns logic, 3.813ns route)
+                                       (17.2% logic, 82.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'adc0clk_p'
+  Clock period: 1.114ns (frequency: 897.666MHz)
+  Total number of paths / destination ports: 4837 / 2325
+-------------------------------------------------------------------------
+Delay:               2.228ns (Levels of Logic = 3)
+  Source:            snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/gcx.clkx/rd_pntr_bin_1 (FF)
+  Destination:       snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/ram_almost_full_i (FF)
+  Source Clock:      adc0clk_p rising 0.5X
+  Destination Clock: adc0clk_p rising 0.5X
+
+  Data Path: snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/gcx.clkx/rd_pntr_bin_1 to snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/ram_almost_full_i
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.375   0.798  U0/grf.rf/gcx.clkx/rd_pntr_bin_1 (U0/grf.rf/gcx.clkx/rd_pntr_bin<1>)
+     LUT6:I0->O            2   0.068   0.423  U0/grf.rf/gl0.wr/gwas.wsts/c2/out_SW0 (N01)
+     LUT5:I4->O            1   0.068   0.417  U0/grf.rf/gl0.wr/gwas.wsts/c2/out (U0/grf.rf/gl0.wr/gwas.wsts/comp2)
+     LUT6:I5->O            1   0.068   0.000  U0/grf.rf/gl0.wr/gwas.wsts/Mmux_n0058195 (U0/grf.rf/gl0.wr/gwas.wsts/n0058)
+     FDPE:D                    0.011          U0/grf.rf/gl0.wr/gwas.wsts/ram_almost_full_i
+    ----------------------------------------
+    Total                      2.228ns (0.590ns logic, 1.638ns route)
+                                       (26.5% logic, 73.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'sys_clk_p'
+  Clock period: 2.188ns (frequency: 457.143MHz)
+  Total number of paths / destination ports: 186 / 11
+-------------------------------------------------------------------------
+Delay:               2.188ns (Levels of Logic = 8)
+  Source:            reset_block_inst/reset_block_inst/width_counter_7 (FF)
+  Destination:       reset_block_inst/reset_block_inst/width_counter_0 (FF)
+  Source Clock:      sys_clk_p rising
+  Destination Clock: sys_clk_p rising
+
+  Data Path: reset_block_inst/reset_block_inst/width_counter_7 to reset_block_inst/reset_block_inst/width_counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.375   0.795  reset_block_inst/width_counter_7 (reset_block_inst/width_counter<7>)
+     LUT5:I0->O            1   0.068   0.000  reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_lut<0> (reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_lut<0>)
+     MUXCY:S->O            1   0.290   0.000  reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_cy<0> (reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_cy<0>)
+     MUXCY:CI->O           1   0.020   0.000  reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_cy<1> (reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_cy<1>)
+     MUXCY:CI->O           1   0.020   0.000  reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_cy<2> (reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_cy<2>)
+     MUXCY:CI->O           1   0.020   0.000  reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_cy<3> (reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_cy<3>)
+     MUXCY:CI->O           1   0.020   0.000  reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_cy<4> (reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_cy<4>)
+     MUXCY:CI->O          11   0.020   0.483  reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_cy<5> (reset_block_inst/Mcompar_width_counter[31]_GND_2_o_LessThan_1_o_cy<5>)
+     LUT4:I3->O            1   0.068   0.000  reset_block_inst/width_counter_0_rstpot (reset_block_inst/width_counter_0_rstpot)
+     FDC:D                     0.011          reset_block_inst/width_counter_0
+    ----------------------------------------
+    Total                      2.188ns (0.910ns logic, 1.278ns route)
+                                       (41.6% logic, 58.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'epb_clk_in'
+  Total number of paths / destination ports: 35 / 35
+-------------------------------------------------------------------------
+Offset:              0.720ns (Levels of Logic = 3)
+  Source:            adc0_adc3wire_data_o (PAD)
+  Destination:       opb_adc5g_controller_0/opb_adc5g_controller_0/adc0_read_data_shift_0 (FF)
+  Destination Clock: epb_clk_in rising
+
+  Data Path: adc0_adc3wire_data_o to opb_adc5g_controller_0/opb_adc5g_controller_0/adc0_read_data_shift_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.003   0.638  adc0_adc3wire_data_o_IBUF (adc0_adc3wire_data_o_IBUF)
+     begin scope: 'opb_adc5g_controller_0:adc0_adc3wire_data_o'
+     LUT4:I0->O            1   0.068   0.000  opb_adc5g_controller_0/adc0_read_data_shift_0_dpot (opb_adc5g_controller_0/adc0_read_data_shift_0_dpot)
+     FDE:D                     0.011          opb_adc5g_controller_0/adc0_read_data_shift_0
+    ----------------------------------------
+    Total                      0.720ns (0.082ns logic, 0.638ns route)
+                                       (11.4% logic, 88.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'adc0clk_p'
+  Total number of paths / destination ports: 130 / 129
+-------------------------------------------------------------------------
+Offset:              0.413ns (Levels of Logic = 2)
+  Source:            adc0sync_p (PAD)
+  Destination:       snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/fifo_sync (FF)
+  Destination Clock: adc0clk_p rising 0.5X
+
+  Data Path: adc0sync_p to snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/fifo_sync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     begin scope: 'snapshot_roach2_asiaa_adc5g:adc_sync_p'
+     IBUFDS:I->O           1   0.003   0.399  snapshot_roach2_asiaa_adc5g/CBUF0 (snapshot_roach2_asiaa_adc5g/adc_sync)
+     FDC:D                     0.011          snapshot_roach2_asiaa_adc5g/fifo_sync
+    ----------------------------------------
+    Total                      0.413ns (0.014ns logic, 0.399ns route)
+                                       (3.4% logic, 96.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'epb_clk_in'
+  Total number of paths / destination ports: 242 / 70
+-------------------------------------------------------------------------
+Offset:              1.794ns (Levels of Logic = 3)
+  Source:            opb_adc5g_controller_0/opb_adc5g_controller_0/adc0_reset_counter_3 (FF)
+  Destination:       adc0_reset (PAD)
+  Source Clock:      epb_clk_in rising
+
+  Data Path: opb_adc5g_controller_0/opb_adc5g_controller_0/adc0_reset_counter_3 to adc0_reset
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             3   0.375   0.789  opb_adc5g_controller_0/adc0_reset_counter_3 (opb_adc5g_controller_0/adc0_reset_counter<3>)
+     LUT5:I0->O           67   0.068   0.559  opb_adc5g_controller_0/adc0_reset1 (adc0_reset)
+     end scope: 'opb_adc5g_controller_0:adc0_reset'
+     OBUF:I->O                 0.003          adc0_reset_OBUF (adc0_reset)
+    ----------------------------------------
+    Total                      1.794ns (0.446ns logic, 1.348ns route)
+                                       (24.9% logic, 75.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'adc0clk_p'
+  Total number of paths / destination ports: 192 / 192
+-------------------------------------------------------------------------
+Offset:              0.774ns (Levels of Logic = 0)
+  Source:            snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/tap_rst3_7 (FF)
+  Destination:       snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/DATADLY3[7].IODLY3:RST (PAD)
+  Source Clock:      adc0clk_p rising 0.5X
+
+  Data Path: snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/tap_rst3_7 to snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/DATADLY3[7].IODLY3:RST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.375   0.399  snapshot_roach2_asiaa_adc5g/tap_rst3_7 (snapshot_roach2_asiaa_adc5g/tap_rst3<7>)
+    IODELAYE1:RST              0.000          snapshot_roach2_asiaa_adc5g/DATADLY3[7].IODLY3
+    ----------------------------------------
+    Total                      0.774ns (0.375ns logic, 0.399ns route)
+                                       (48.4% logic, 51.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 130 / 98
+-------------------------------------------------------------------------
+Delay:               1.084ns (Levels of Logic = 2)
+  Source:            adc0data3_p_i<7> (PAD)
+  Destination:       snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/DATADLY3[7].IODLY3:IDATAIN (PAD)
+
+  Data Path: adc0data3_p_i<7> to snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/DATADLY3[7].IODLY3:IDATAIN
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     begin scope: 'snapshot_roach2_asiaa_adc5g:adc_data3_p_i<7>'
+     IBUFDS_LVDS_25:I->O    0   1.084   0.000  snapshot_roach2_asiaa_adc5g/IBUFDS3[7].IBUF3 (snapshot_roach2_asiaa_adc5g/data3<7>)
+    IODELAYE1:IDATAIN          0.000          snapshot_roach2_asiaa_adc5g/DATADLY3[7].IODLY3
+    ----------------------------------------
+    Total                      1.084ns (1.084ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock adc0clk_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adc0clk_p      |    2.228|         |         |         |
+epb_clk_in     |    3.015|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock epb_clk_in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adc0clk_p      |    1.723|         |         |         |
+epb_clk_in     |    4.607|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sys_clk_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sys_clk_p      |    2.188|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 13.19 secs
+ 
+--> 
+
+
+Total memory usage is 436464 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :  101 (   0 filtered)
+

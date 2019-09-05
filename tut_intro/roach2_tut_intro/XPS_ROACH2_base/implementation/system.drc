@@ -1,0 +1,11 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Aug 27 16:41:34 2019
+
+drc -z system.ncd system.pcf
+
+WARNING:PhysDesignRules:367 - The signal <infrastructure_inst/clk_200> is
+   incomplete. The signal does not drive any load pins in the design.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

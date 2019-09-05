@@ -1,0 +1,620 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_snapshot_roach2_asiaa_adc5g_wrapper_xst.prj"
+Verilog Include Directory          : {"/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc6vsx475tff1759-1
+Output File Name                   : "../implementation/system_snapshot_roach2_asiaa_adc5g_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_snapshot_roach2_asiaa_adc5g_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/verilog/gc2bin.v" into library adc5g_dmux1_interface_v1_00_a
+Parsing module <gc2bin>.
+Parsing VHDL file "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/fifo_generator_v5_3.vhd" into library adc5g_dmux1_interface_v1_00_a
+Parsing entity <fifo_generator_v5_3>.
+Parsing architecture <fifo_generator_v5_3_a> of entity <fifo_generator_v5_3>.
+Parsing VHDL file "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd" into library adc5g_dmux1_interface_v1_00_a
+Parsing entity <adc5g_dmux1_interface>.
+Parsing architecture <behavioral> of entity <adc5g_dmux1_interface>.
+Parsing VHDL file "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system_snapshot_roach2_asiaa_adc5g_wrapper.vhd" into library work
+Parsing entity <system_snapshot_roach2_asiaa_adc5g_wrapper>.
+Parsing architecture <STRUCTURE> of entity <system_snapshot_roach2_asiaa_adc5g_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <system_snapshot_roach2_asiaa_adc5g_wrapper> (architecture <STRUCTURE>) from library <work>.
+WARNING:HDLCompiler:244 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system_snapshot_roach2_asiaa_adc5g_wrapper.vhd" Line 75: Binding entity adc5g_dmux1_interface does not have generic use_adc0
+INFO:HDLCompiler:1408 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd" Line 31. adc5g_dmux1_interface is declared here
+WARNING:HDLCompiler:244 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system_snapshot_roach2_asiaa_adc5g_wrapper.vhd" Line 76: Binding entity adc5g_dmux1_interface does not have generic use_adc1
+INFO:HDLCompiler:1408 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd" Line 31. adc5g_dmux1_interface is declared here
+WARNING:HDLCompiler:244 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system_snapshot_roach2_asiaa_adc5g_wrapper.vhd" Line 77: Binding entity adc5g_dmux1_interface does not have generic using_cntl
+INFO:HDLCompiler:1408 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd" Line 31. adc5g_dmux1_interface is declared here
+
+Elaborating entity <adc5g_dmux1_interface> (architecture <behavioral>) with generics from library <adc5g_dmux1_interface_v1_00_a>.
+INFO:HDLCompiler:679 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd" Line 442. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd" Line 450. Case statement is complete. others clause is never selected
+Going to verilog side to elaborate module gc2bin
+
+Elaborating module <gc2bin(DATA_WIDTH=8)>.
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+Going to verilog side to elaborate module gc2bin
+Back to vhdl to continue elaboration
+
+Elaborating entity <fifo_generator_v5_3> (architecture <fifo_generator_v5_3_a>) from library <adc5g_dmux1_interface_v1_00_a>.
+WARNING:HDLCompiler:244 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system_snapshot_roach2_asiaa_adc5g_wrapper.vhd" Line 75: Binding entity adc5g_dmux1_interface does not have generic use_adc0
+INFO:HDLCompiler:1408 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd" Line 31. adc5g_dmux1_interface is declared here
+WARNING:HDLCompiler:244 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system_snapshot_roach2_asiaa_adc5g_wrapper.vhd" Line 76: Binding entity adc5g_dmux1_interface does not have generic use_adc1
+INFO:HDLCompiler:1408 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd" Line 31. adc5g_dmux1_interface is declared here
+WARNING:HDLCompiler:244 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system_snapshot_roach2_asiaa_adc5g_wrapper.vhd" Line 77: Binding entity adc5g_dmux1_interface does not have generic using_cntl
+INFO:HDLCompiler:1408 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd" Line 31. adc5g_dmux1_interface is declared here
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_snapshot_roach2_asiaa_adc5g_wrapper>.
+    Related source file is "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system_snapshot_roach2_asiaa_adc5g_wrapper.vhd".
+    Summary:
+	no macro.
+Unit <system_snapshot_roach2_asiaa_adc5g_wrapper> synthesized.
+
+Synthesizing Unit <adc5g_dmux1_interface>.
+    Related source file is "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd".
+        adc_bit_width = 8
+        clkin_period = 7.2727
+        mode = 0
+        mmcm_m = 5.0
+        mmcm_d = 1
+        mmcm_o1 = 10
+        bufr_div = 1
+        bufr_div_str = "1"
+INFO:Xst:3210 - "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/vhdl/adc5g_dmux1_interface.vhd" line 820: Output port <almost_full> of the instance <FIFO> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <fifo_sync>.
+    Found 16-bit register for signal <fifo_full_ci>.
+    Found 16-bit register for signal <fifo_empty_ci>.
+    Found 8-bit register for signal <tap_rst0>.
+    Found 8-bit register for signal <tap_rst1>.
+    Found 8-bit register for signal <tap_rst2>.
+    Found 8-bit register for signal <tap_rst3>.
+    Found 5-bit register for signal <datain_tap0<0>>.
+    Found 5-bit register for signal <datain_tap0<1>>.
+    Found 5-bit register for signal <datain_tap0<2>>.
+    Found 5-bit register for signal <datain_tap0<3>>.
+    Found 5-bit register for signal <datain_tap0<4>>.
+    Found 5-bit register for signal <datain_tap0<5>>.
+    Found 5-bit register for signal <datain_tap0<6>>.
+    Found 5-bit register for signal <datain_tap0<7>>.
+    Found 5-bit register for signal <datain_tap1<0>>.
+    Found 5-bit register for signal <datain_tap1<1>>.
+    Found 5-bit register for signal <datain_tap1<2>>.
+    Found 5-bit register for signal <datain_tap1<3>>.
+    Found 5-bit register for signal <datain_tap1<4>>.
+    Found 5-bit register for signal <datain_tap1<5>>.
+    Found 5-bit register for signal <datain_tap1<6>>.
+    Found 5-bit register for signal <datain_tap1<7>>.
+    Found 5-bit register for signal <datain_tap2<0>>.
+    Found 5-bit register for signal <datain_tap2<1>>.
+    Found 5-bit register for signal <datain_tap2<2>>.
+    Found 5-bit register for signal <datain_tap2<3>>.
+    Found 5-bit register for signal <datain_tap2<4>>.
+    Found 5-bit register for signal <datain_tap2<5>>.
+    Found 5-bit register for signal <datain_tap2<6>>.
+    Found 5-bit register for signal <datain_tap2<7>>.
+    Found 5-bit register for signal <datain_tap3<0>>.
+    Found 5-bit register for signal <datain_tap3<1>>.
+    Found 5-bit register for signal <datain_tap3<2>>.
+    Found 5-bit register for signal <datain_tap3<3>>.
+    Found 5-bit register for signal <datain_tap3<4>>.
+    Found 5-bit register for signal <datain_tap3<5>>.
+    Found 5-bit register for signal <datain_tap3<6>>.
+    Found 5-bit register for signal <datain_tap3<7>>.
+    Found 1-bit register for signal <fifo_wr_en>.
+    Found 1-bit register for signal <fifo_rd_en>.
+    Found 144-bit register for signal <fifo_din>.
+    Found 144-bit register for signal <fifo_din_buf0>.
+    Found 144-bit register for signal <fifo_din_buf1>.
+    Found 16-bit adder for signal <fifo_full_ci[15]_GND_6_o_add_154_OUT> created at line 1241.
+    Found 16-bit adder for signal <fifo_empty_ci[15]_GND_6_o_add_158_OUT> created at line 1241.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred 659 D-type flip-flop(s).
+Unit <adc5g_dmux1_interface> synthesized.
+
+Synthesizing Unit <gc2bin>.
+    Related source file is "/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/adc5g_dmux1_interface_v1_00_a/hdl/verilog/gc2bin.v".
+        DATA_WIDTH = 8
+    Summary:
+Unit <gc2bin> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 16-bit adder                                          : 2
+# Registers                                            : 44
+ 1-bit register                                        : 3
+ 144-bit register                                      : 3
+ 16-bit register                                       : 2
+ 5-bit register                                        : 32
+ 8-bit register                                        : 4
+# Xors                                                 : 112
+ 1-bit xor2                                            : 16
+ 1-bit xor3                                            : 16
+ 1-bit xor4                                            : 16
+ 1-bit xor5                                            : 16
+ 1-bit xor6                                            : 16
+ 1-bit xor7                                            : 16
+ 1-bit xor8                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2404 -  FFs/Latches <fifo_din<143:129>> (without init value) have a constant value of 0 in block <adc5g_dmux1_interface>.
+WARNING:Xst:2404 -  FFs/Latches <fifo_din_buf0<143:129>> (without init value) have a constant value of 0 in block <adc5g_dmux1_interface>.
+WARNING:Xst:2404 -  FFs/Latches <fifo_din_buf1<143:129>> (without init value) have a constant value of 0 in block <adc5g_dmux1_interface>.
+
+Synthesizing (advanced) Unit <adc5g_dmux1_interface>.
+The following registers are absorbed into counter <fifo_full_ci>: 1 register on signal <fifo_full_ci>.
+The following registers are absorbed into counter <fifo_empty_ci>: 1 register on signal <fifo_empty_ci>.
+Unit <adc5g_dmux1_interface> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 16-bit up counter                                     : 2
+# Registers                                            : 966
+ Flip-Flops                                            : 966
+# Xors                                                 : 112
+ 1-bit xor2                                            : 16
+ 1-bit xor3                                            : 16
+ 1-bit xor4                                            : 16
+ 1-bit xor5                                            : 16
+ 1-bit xor6                                            : 16
+ 1-bit xor7                                            : 16
+ 1-bit xor8                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system_snapshot_roach2_asiaa_adc5g_wrapper> ...
+
+Optimizing unit <adc5g_dmux1_interface> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_snapshot_roach2_asiaa_adc5g_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 998
+ Flip-Flops                                            : 998
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_snapshot_roach2_asiaa_adc5g_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 269
+#      GND                         : 1
+#      INV                         : 4
+#      LUT1                        : 28
+#      LUT2                        : 17
+#      LUT3                        : 44
+#      LUT4                        : 16
+#      LUT5                        : 16
+#      LUT6                        : 80
+#      MUXCY                       : 30
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 998
+#      FD                          : 384
+#      FDC                         : 1
+#      FDCE                        : 32
+#      FDE                         : 160
+#      FDR                         : 421
+# Clock Buffers                    : 4
+#      BUFG                        : 4
+# IO Buffers                       : 34
+#      IBUFDS                      : 2
+#      IBUFDS_LVDS_25              : 32
+# Others                           : 67
+#      BUFR                        : 1
+#      fifo_generator_v5_3         : 1
+#      IODELAYE1                   : 32
+#      ISERDESE1                   : 32
+#      MMCM_ADV                    : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vsx475tff1759-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             998  out of  595200     0%  
+ Number of Slice LUTs:                  205  out of  297600     0%  
+    Number used as Logic:               205  out of  297600     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1050
+   Number with an unused Flip Flop:      52  out of   1050     4%  
+   Number with an unused LUT:           845  out of   1050    80%  
+   Number of fully used LUT-FF pairs:   153  out of   1050    14%  
+   Number of unique control sets:        41
+
+IO Utilization: 
+ Number of IOs:                         253
+ Number of bonded IOBs:                  68  out of    840     8%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                4  out of     32    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+---------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                             | Load  |
+-----------------------------------+---------------------------------------------------+-------+
+adc_clk_p_i                        | IBUFDS                                            | 1     |
+ctrl_clk_in                        | NONE(snapshot_roach2_asiaa_adc5g/fifo_empty_ci_15)| 16    |
+adc_clk_p_i                        | MMCM_ADV:CLKOUT1                                  | 982   |
+-----------------------------------+---------------------------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+-----------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                         | Load  |
+-----------------------------------+-----------------------------------------+-------+
+N1(XST_VCC:P)                      | NONE(snapshot_roach2_asiaa_adc5g/DIVBUF)| 1     |
+ctrl_reset                         | NONE                                    | 1     |
+-----------------------------------+-----------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 1.673ns (Maximum Frequency: 597.729MHz)
+   Minimum input arrival time before clock: 1.224ns
+   Maximum output required time after clock: 0.774ns
+   Maximum combinational path delay: 1.084ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'ctrl_clk_in'
+  Clock period: 1.673ns (frequency: 597.729MHz)
+  Total number of paths / destination ports: 136 / 16
+-------------------------------------------------------------------------
+Delay:               1.673ns (Levels of Logic = 17)
+  Source:            snapshot_roach2_asiaa_adc5g/fifo_empty_ci_0 (FF)
+  Destination:       snapshot_roach2_asiaa_adc5g/fifo_empty_ci_15 (FF)
+  Source Clock:      ctrl_clk_in rising
+  Destination Clock: ctrl_clk_in rising
+
+  Data Path: snapshot_roach2_asiaa_adc5g/fifo_empty_ci_0 to snapshot_roach2_asiaa_adc5g/fifo_empty_ci_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.375   0.399  snapshot_roach2_asiaa_adc5g/fifo_empty_ci_0 (snapshot_roach2_asiaa_adc5g/fifo_empty_ci_0)
+     INV:I->O              1   0.086   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_lut<0>_INV_0 (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_lut<0>)
+     MUXCY:S->O            1   0.290   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<0> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<0>)
+     MUXCY:CI->O           1   0.020   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<1> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<1>)
+     MUXCY:CI->O           1   0.020   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<2> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<3> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<4> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<5> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<6> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<7> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<8> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<9> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<10> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<11> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<12> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<13> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<13>)
+     MUXCY:CI->O           0   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<14> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_cy<14>)
+     XORCY:CI->O           1   0.239   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_empty_ci_xor<15> (snapshot_roach2_asiaa_adc5g/Result<15>)
+     FDCE:D                    0.011          snapshot_roach2_asiaa_adc5g/fifo_empty_ci_15
+    ----------------------------------------
+    Total                      1.673ns (1.274ns logic, 0.399ns route)
+                                       (76.2% logic, 23.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'adc_clk_p_i'
+  Clock period: 0.837ns (frequency: 1195.457MHz)
+  Total number of paths / destination ports: 1227 / 659
+-------------------------------------------------------------------------
+Delay:               1.673ns (Levels of Logic = 17)
+  Source:            snapshot_roach2_asiaa_adc5g/fifo_full_ci_0 (FF)
+  Destination:       snapshot_roach2_asiaa_adc5g/fifo_full_ci_15 (FF)
+  Source Clock:      adc_clk_p_i rising 0.5X
+  Destination Clock: adc_clk_p_i rising 0.5X
+
+  Data Path: snapshot_roach2_asiaa_adc5g/fifo_full_ci_0 to snapshot_roach2_asiaa_adc5g/fifo_full_ci_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             1   0.375   0.399  snapshot_roach2_asiaa_adc5g/fifo_full_ci_0 (snapshot_roach2_asiaa_adc5g/fifo_full_ci_0)
+     INV:I->O              1   0.086   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_lut<0>_INV_0 (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_lut<0>)
+     MUXCY:S->O            1   0.290   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<0> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<0>)
+     MUXCY:CI->O           1   0.020   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<1> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<1>)
+     MUXCY:CI->O           1   0.020   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<2> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<3> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<4> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<5> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<6> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<7> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<8> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<9> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<10> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<11> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<12> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<13> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<13>)
+     MUXCY:CI->O           0   0.019   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<14> (snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_cy<14>)
+     XORCY:CI->O           1   0.239   0.000  snapshot_roach2_asiaa_adc5g/Mcount_fifo_full_ci_xor<15> (snapshot_roach2_asiaa_adc5g/Result<15>1)
+     FDCE:D                    0.011          snapshot_roach2_asiaa_adc5g/fifo_full_ci_15
+    ----------------------------------------
+    Total                      1.673ns (1.274ns logic, 0.399ns route)
+                                       (76.2% logic, 23.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ctrl_clk_in'
+  Total number of paths / destination ports: 32 / 32
+-------------------------------------------------------------------------
+Offset:              0.768ns (Levels of Logic = 0)
+  Source:            snapshot_roach2_asiaa_adc5g/FIFO:empty (PAD)
+  Destination:       snapshot_roach2_asiaa_adc5g/fifo_empty_ci_15 (FF)
+  Destination Clock: ctrl_clk_in rising
+
+  Data Path: snapshot_roach2_asiaa_adc5g/FIFO:empty to snapshot_roach2_asiaa_adc5g/fifo_empty_ci_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    fifo_generator_v5_3:empty   17   0.000   0.505  snapshot_roach2_asiaa_adc5g/FIFO (snapshot_roach2_asiaa_adc5g/fifo_empty)
+     FDCE:CE                   0.263          snapshot_roach2_asiaa_adc5g/fifo_empty_ci_0
+    ----------------------------------------
+    Total                      0.768ns (0.263ns logic, 0.505ns route)
+                                       (34.2% logic, 65.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'adc_clk_p_i'
+  Total number of paths / destination ports: 1865 / 936
+-------------------------------------------------------------------------
+Offset:              1.224ns (Levels of Logic = 1)
+  Source:            ctrl_reset (PAD)
+  Destination:       snapshot_roach2_asiaa_adc5g/fifo_din_buf1_128 (FF)
+  Destination Clock: adc_clk_p_i rising 0.5X
+
+  Data Path: ctrl_reset to snapshot_roach2_asiaa_adc5g/fifo_din_buf1_128
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LUT2:I0->O          389   0.068   0.630  snapshot_roach2_asiaa_adc5g/fifo_rst1 (snapshot_roach2_asiaa_adc5g/fifo_rst)
+     FDR:R                     0.434          snapshot_roach2_asiaa_adc5g/fifo_rd_en
+    ----------------------------------------
+    Total                      1.224ns (0.594ns logic, 0.630ns route)
+                                       (48.5% logic, 51.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'adc_clk_p_i'
+  Total number of paths / destination ports: 339 / 339
+-------------------------------------------------------------------------
+Offset:              0.774ns (Levels of Logic = 0)
+  Source:            snapshot_roach2_asiaa_adc5g/tap_rst3_7 (FF)
+  Destination:       snapshot_roach2_asiaa_adc5g/DATADLY3[7].IODLY3:RST (PAD)
+  Source Clock:      adc_clk_p_i rising 0.5X
+
+  Data Path: snapshot_roach2_asiaa_adc5g/tap_rst3_7 to snapshot_roach2_asiaa_adc5g/DATADLY3[7].IODLY3:RST
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.375   0.399  snapshot_roach2_asiaa_adc5g/tap_rst3_7 (snapshot_roach2_asiaa_adc5g/tap_rst3_7)
+    IODELAYE1:RST              0.000          snapshot_roach2_asiaa_adc5g/DATADLY3[7].IODLY3
+    ----------------------------------------
+    Total                      0.774ns (0.375ns logic, 0.399ns route)
+                                       (48.4% logic, 51.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'ctrl_clk_in'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              0.375ns (Levels of Logic = 0)
+  Source:            snapshot_roach2_asiaa_adc5g/fifo_empty_ci_15 (FF)
+  Destination:       fifo_empty_cnt<15> (PAD)
+  Source Clock:      ctrl_clk_in rising
+
+  Data Path: snapshot_roach2_asiaa_adc5g/fifo_empty_ci_15 to fifo_empty_cnt<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             0   0.375   0.000  snapshot_roach2_asiaa_adc5g/fifo_empty_ci_15 (snapshot_roach2_asiaa_adc5g/fifo_empty_ci_15)
+    ----------------------------------------
+    Total                      0.375ns (0.375ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 259 / 227
+-------------------------------------------------------------------------
+Delay:               1.084ns (Levels of Logic = 1)
+  Source:            adc_data3_p_i<7> (PAD)
+  Destination:       snapshot_roach2_asiaa_adc5g/DATADLY3[7].IODLY3:IDATAIN (PAD)
+
+  Data Path: adc_data3_p_i<7> to snapshot_roach2_asiaa_adc5g/DATADLY3[7].IODLY3:IDATAIN
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUFDS_LVDS_25:I->O    0   1.084   0.000  snapshot_roach2_asiaa_adc5g/IBUFDS3[7].IBUF3 (snapshot_roach2_asiaa_adc5g/data3<7>)
+    IODELAYE1:IDATAIN          0.000          snapshot_roach2_asiaa_adc5g/DATADLY3[7].IODLY3
+    ----------------------------------------
+    Total                      1.084ns (1.084ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock adc_clk_p_i
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adc_clk_p_i    |    1.673|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock ctrl_clk_in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ctrl_clk_in    |    1.673|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.56 secs
+ 
+--> 
+
+
+Total memory usage is 436800 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

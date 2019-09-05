@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="PhysDesignRules" num="367" delta="new" >The signal &lt;<arg fmt="%s" index="1">infrastructure_inst/clk_200</arg>&gt; is incomplete. The signal does not drive any load pins in the design.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generate[1].ISERDES_NODELAY_inst_i</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generate[1].ISERDES_NODELAY_inst_q</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generate[3].ISERDES_NODELAY_inst_i</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generate[3].ISERDES_NODELAY_inst_q</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generate[5].ISERDES_NODELAY_inst_i</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generate[5].ISERDES_NODELAY_inst_q</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generate[11].ISERDES_NODELAY_inst_i</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generate[11].ISERDES_NODELAY_inst_q</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generate[0].ISERDES_NODELAY_inst_i</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generate[0].ISERDES_NODELAY_inst_q</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generate[2].ISERDES_NODELAY_inst_i</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generate[2].ISERDES_NODELAY_inst_q</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generate[4].ISERDES_NODELAY_inst_i</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generate[4].ISERDES_NODELAY_inst_q</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generate[6].ISERDES_NODELAY_inst_i</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="2165" delta="new" >Issue with pin connections and/or configuration on block:&lt;<arg fmt="%s" index="1">snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generate[6].ISERDES_NODELAY_inst_q</arg>&gt;:&lt;<arg fmt="%s" index="2">ISERDESE1_ISERDESE1</arg>&gt;.  Useless CE2 input pin. With NUM_CE set 1, the CE2 input pin is being ignored.
+</msg>
+
+</messages>
+

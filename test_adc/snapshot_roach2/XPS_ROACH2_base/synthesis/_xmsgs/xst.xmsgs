@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">adc1_datain_pin</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb_adc5g_controller_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">adc1_datain_tap</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb_adc5g_controller_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">adc1_adc3wire_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb_adc5g_controller_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">adc1_adc3wire_data</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb_adc5g_controller_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">adc1_adc3wire_spi_rst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb_adc5g_controller_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">adc1_modepin</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb_adc5g_controller_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">adc1_reset</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb_adc5g_controller_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">adc1_dcm_reset</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb_adc5g_controller_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">adc1_psclk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb_adc5g_controller_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">adc1_psen</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb_adc5g_controller_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">adc1_psincdec</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb_adc5g_controller_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">adc1_tap_rst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb_adc5g_controller_0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk90</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk180</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk270</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk_lock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk2x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk2x90</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk2x180</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk2x270</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk90</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk180</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk270</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk2x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk2x90</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk2x180</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk2x270</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">idelay_rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">clk_200</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">597</arg>: Output port &lt;<arg fmt="%s" index="3">clk_100</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">629</arg>: Output port &lt;<arg fmt="%s" index="3">op_reset_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">reset_block_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_MRequest</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_rdDBus</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_wrDBus</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_pendReq</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_beXfer</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_beAck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_busLock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_dwAck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_dwXfer</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_fwAck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_fwXfer</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_hwAck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_hwXfer</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">637</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_toutSup</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">735</arg>: Output port &lt;<arg fmt="%s" index="3">soft_reset</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sys_block_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">784</arg>: Output port &lt;<arg fmt="%s" index="3">adc_reset_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">snapshot_roach2_asiaa_adc5g</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">784</arg>: Output port &lt;<arg fmt="%s" index="3">ctrl_clk90_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">snapshot_roach2_asiaa_adc5g</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">784</arg>: Output port &lt;<arg fmt="%s" index="3">ctrl_clk180_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">snapshot_roach2_asiaa_adc5g</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">784</arg>: Output port &lt;<arg fmt="%s" index="3">ctrl_clk270_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">snapshot_roach2_asiaa_adc5g</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">opb_adc5g_controller_0/opb_ack</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">opb_adc5g_controller_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;opb_adc5g_controller_0/opb_ack_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_snapshot_status/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_snapshot_status</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_snapshot_status/register_readyRR_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_1&gt; &lt;U0/grf.rf/rstblk/ngwrdrst.grst.rd_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/rstblk/ngwrdrst.grst.wr_rst_reg_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">BU2</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">opb_adc5g_controller_0/opb_ack</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">opb_adc5g_controller_0</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;opb_adc5g_controller_0/opb_ack_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_x0/snapshot_07349966a3/add_del/op_mem_20_24_0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_x0/snapshot_07349966a3/add_gen_68ce53fb1a/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snapshot_roach2_snapshot_status/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snapshot_roach2_snapshot_status</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snapshot_roach2_snapshot_status/register_readyRR_1&gt; </arg>
+</msg>
+
+</messages>
+

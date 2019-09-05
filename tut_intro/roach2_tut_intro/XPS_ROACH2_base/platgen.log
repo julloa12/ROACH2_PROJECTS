@@ -1,0 +1,253 @@
+Release 14.7 - platgen Xilinx EDK 14.7 Build EDK_P.20131013
+ (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: platgen -p xc6vsx475tff1759-1 -lang vhdl -intstyle default -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+Parse
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+...
+
+Read MPD definitions ...
+
+Overriding IP level properties ...
+
+Computing clock values...
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_MASTERS value to 1 -
+   /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/da
+   ta/opb_v20_v2_1_0.mpd line 74 
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_SLAVES value to 6 -
+   /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/da
+   ta/opb_v20_v2_1_0.mpd line 75 
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: opb_v20, INSTANCE: opb0 - 1 master(s) : 6 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4181 - PORT: sys_clk180, CONNECTOR: sys_clk180 - floating connection
+   -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 65 
+WARNING:EDK:4181 - PORT: sys_clk270, CONNECTOR: sys_clk270 - floating connection
+   -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 66 
+WARNING:EDK:4181 - PORT: sys_clk_lock, CONNECTOR: sys_clk_lock - floating
+   connection -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 67 
+WARNING:EDK:4181 - PORT: sys_clk2x, CONNECTOR: sys_clk2x - floating connection -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 68 
+WARNING:EDK:4181 - PORT: sys_clk2x90, CONNECTOR: sys_clk2x90 - floating
+   connection -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 69 
+WARNING:EDK:4181 - PORT: sys_clk2x180, CONNECTOR: sys_clk2x180 - floating
+   connection -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 70 
+WARNING:EDK:4181 - PORT: sys_clk2x270, CONNECTOR: sys_clk2x270 - floating
+   connection -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 71 
+WARNING:EDK:4181 - PORT: aux_clk, CONNECTOR: aux_clk - floating connection -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 72 
+WARNING:EDK:4181 - PORT: aux_clk90, CONNECTOR: aux_clk90 - floating connection -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 73 
+WARNING:EDK:4181 - PORT: aux_clk180, CONNECTOR: aux_clk180 - floating connection
+   -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 74 
+WARNING:EDK:4181 - PORT: aux_clk270, CONNECTOR: aux_clk270 - floating connection
+   -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 75 
+WARNING:EDK:4181 - PORT: aux_clk2x, CONNECTOR: aux_clk2x - floating connection -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 76 
+WARNING:EDK:4181 - PORT: aux_clk2x90, CONNECTOR: aux_clk2x90 - floating
+   connection -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 77 
+WARNING:EDK:4181 - PORT: aux_clk2x180, CONNECTOR: aux_clk2x180 - floating
+   connection -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 78 
+WARNING:EDK:4181 - PORT: aux_clk2x270, CONNECTOR: aux_clk2x270 - floating
+   connection -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 79 
+WARNING:EDK:4181 - PORT: idelay_rdy, CONNECTOR: idelay_rdy - floating connection
+   -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 82 
+WARNING:EDK:4181 - PORT: clk_100, CONNECTOR: clk_100 - floating connection -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 84 
+WARNING:EDK:4181 - PORT: op_reset_o, CONNECTOR: sys_reset - floating connection
+   -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 94 
+WARNING:EDK:4181 - PORT: soft_reset, CONNECTOR: soft_reset - floating connection
+   -
+   /home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mh
+   s line 144 
+
+Performing Clock DRCs...
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+IPNAME:roach2_tut_intro INSTANCE:roach2_tut_intro_xsg_core_config -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 157 - Copying (BBD-specified) netlist files.
+
+Managing cache ...
+
+Elaborating instances ...
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 1.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:infrastructure_inst -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 45 - Running XST synthesis
+INSTANCE:reset_block_inst -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 87 - Running XST synthesis
+INSTANCE:opb0 -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 97 - Running XST synthesis
+INSTANCE:epb_opb_bridge_inst -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 106 - Running XST synthesis
+INSTANCE:epb_infrastructure_inst -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 123 - Running XST synthesis
+INSTANCE:sys_block_inst -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 132 - Running XST synthesis
+INSTANCE:roach2_tut_intro_xsg_core_config -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 157 - Running XST synthesis
+INSTANCE:roach2_tut_intro_a -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 180 - Running XST synthesis
+INSTANCE:roach2_tut_intro_b -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 192 - Running XST synthesis
+INSTANCE:roach2_tut_intro_counter_ctrl -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 204 - Running XST synthesis
+INSTANCE:roach2_tut_intro_counter_value -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 216 - Running XST synthesis
+INSTANCE:roach2_tut_intro_gpio -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 228 - Running XST synthesis
+INSTANCE:roach2_tut_intro_gpio1 -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 243 - Running XST synthesis
+INSTANCE:roach2_tut_intro_gpio2 -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 258 - Running XST synthesis
+INSTANCE:roach2_tut_intro_gpio3 -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 273 - Running XST synthesis
+INSTANCE:roach2_tut_intro_sum_a_b -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 288 - Running XST synthesis
+
+Running NGCBUILD ...
+IPNAME:system_roach2_tut_intro_xsg_core_config_wrapper
+INSTANCE:roach2_tut_intro_xsg_core_config -
+/home/ulloaroach2/design/tut_intro/roach2_tut_intro/XPS_ROACH2_base/system.mhs
+line 157 - Running NGCBUILD
+INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+   If any constraint needs to be overridden, this should be done by modifying
+   the data/system.ucf file.
+
+Rebuilding cache ...
+
+Total run time: 163.00 seconds

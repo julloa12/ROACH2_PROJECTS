@@ -1,0 +1,298 @@
+# ##############################################################################
+# Target Board:  ROACH v2.0
+# Family:	     virtex6
+# Device:	     xc6vsx475t
+# Package:	     ff1759
+# Speed Grade:	 -1
+# Processor:     None
+# System clock frequency: 100.000000 MHz
+# ##############################################################################
+
+ PARAMETER VERSION = 2.1.0
+
+
+# Clock Ports
+ PORT sys_clk_n = sys_clk_n, DIR = I, SIGIS = CLK, CLK_FREQ = 100000000
+ PORT sys_clk_p = sys_clk_p, DIR = I, SIGIS = CLK, CLK_FREQ = 100000000
+ #PORT aux_clk_n = aux_clk_n, DIR = I, SIGIS = CLK, CLK_FREQ = 100000000
+ #PORT aux_clk_p = aux_clk_p, DIR = I, SIGIS = CLK, CLK_FREQ = 100000000
+PORT aux_clk_n  = aux_clk_n,  DIR = I, SIGIS = CLK, CLK_FREQ = 100000000
+PORT aux_clk_p  = aux_clk_p,  DIR = I, SIGIS = CLK, CLK_FREQ = 100000000
+# PORT aux_synci_n = aux_synci_n,   DIR = I, SIGIS = CLK, CLK_FREQ = 200000000
+# PORT aux_synci_p = aux_synci_p,   DIR = I, SIGIS = CLK, CLK_FREQ = 200000000
+# PORT aux_synco_n = aux_synco_n,   DIR = I, SIGIS = CLK, CLK_FREQ = 200000000
+# PORT aux_synco_p = aux_synco_p,   DIR = I, SIGIS = CLK, CLK_FREQ = 200000000
+# EPB Ports
+ PORT epb_clk_in = epb_clk_in, DIR = I
+ PORT epb_data = epb_data, DIR = IO, VEC = [0:31]
+ PORT epb_addr = epb_addr, DIR = I, VEC = [5:29]
+ PORT epb_cs_n = epb_cs_n, DIR = I
+ PORT epb_be_n = epb_be_n, DIR = I, VEC = [0:3]
+ PORT epb_r_w_n = epb_r_w_n, DIR = I
+ PORT epb_oe_n = epb_oe_n, DIR = I
+ PORT epb_doe_n = epb_doe_n, DIR = O
+ PORT epb_rdy = epb_rdy, DIR = O
+ PORT ppc_irq_n = ppc_irq_n, DIR = O
+
+
+
+
+
+
+
+
+
+BEGIN roach_infrastructure
+ PARAMETER INSTANCE = infrastructure_inst
+ PARAMETER HW_VER = 1.00.a
+  PARAMETER CLK_FREQ     = 100
+  PARAMETER CLK_HIGH_LOW = low
+  PARAMETER MULTIPLY     = 8
+  PARAMETER DIVIDE       = 8
+  PARAMETER DIVCLK       = 1
+ #PARAMETER CLK_FREQ = 100
+ PORT sys_clk_n = sys_clk_n
+ PORT sys_clk_p = sys_clk_p
+ PORT aux_clk_n = aux_clk_n
+ PORT aux_clk_p = aux_clk_p
+# PORT aux_synci_n   = aux1_clk_n
+# PORT aux_synci_p   = aux1_clk_p
+# PORT aux_synco_n   = aux1_clk_n
+# PORT aux_synco_p   = aux1_clk_p
+ PORT epb_clk_in = epb_clk_in
+ PORT sys_clk = sys_clk
+ PORT sys_clk90 = sys_clk90
+ PORT sys_clk180 = sys_clk180
+ PORT sys_clk270 = sys_clk270
+ PORT sys_clk_lock = sys_clk_lock
+ PORT sys_clk2x = sys_clk2x
+ PORT sys_clk2x90 = sys_clk2x90
+ PORT sys_clk2x180 = sys_clk2x180
+ PORT sys_clk2x270 = sys_clk2x270
+ PORT aux_clk       = aux_clk
+ PORT aux_clk90     = aux_clk90
+ PORT aux_clk180    = aux_clk180
+ PORT aux_clk270    = aux_clk270
+ PORT aux_clk2x     = aux_clk2x
+ PORT aux_clk2x90   = aux_clk2x90
+ PORT aux_clk2x180  = aux_clk2x180
+ PORT aux_clk2x270  = aux_clk2x270
+ PORT epb_clk = epb_clk
+ PORT idelay_rst = power_on_rst
+ PORT idelay_rdy = idelay_rdy
+ PORT op_power_on_rst  = power_on_rst
+ PORT clk_100 = clk_100
+END
+
+BEGIN reset_block
+ PARAMETER INSTANCE = reset_block_inst
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER WIDTH = 1000
+ PORT clk = sys_clk
+ PORT ip_async_reset_i = power_on_rst
+ PORT ip_reset_i = power_on_rst
+ PORT op_reset_o = sys_reset
+END
+
+BEGIN opb_v20
+ PARAMETER INSTANCE = opb0
+ PARAMETER HW_VER = 1.10.c
+ PARAMETER C_EXT_RESET_HIGH = 1
+ PARAMETER C_REG_GRANTS = 0
+ PORT SYS_Rst = power_on_rst
+ PORT OPB_Clk = epb_clk
+END
+
+BEGIN epb32_opb_bridge
+ PARAMETER INSTANCE = epb_opb_bridge_inst
+ PARAMETER HW_VER = 1.00.a
+ BUS_INTERFACE MOPB = opb0
+ PORT epb_clk = epb_clk
+ PORT epb_cs_n = epb_cs_n
+ PORT epb_oe_n = epb_oe_n
+ PORT epb_r_w_n = epb_r_w_n
+ PORT epb_be_n = epb_be_n
+ PORT epb_addr = epb_addr
+ PORT epb_doe_n = epb_doe_n
+ PORT epb_data_oe_n = epb_data_oe_n
+ PORT epb_data_i = epb_data_i
+ PORT epb_data_o = epb_data_o
+ PORT epb_rdy = epb_rdy
+END
+
+BEGIN epb_infrastructure
+ PARAMETER INSTANCE = epb_infrastructure_inst
+ PARAMETER HW_VER = 1.00.a
+ PORT epb_data_oe_n_i = epb_data_oe_n
+ PORT epb_data_out_i = epb_data_o
+ PORT epb_data_in_o = epb_data_i
+ PORT epb_data_buf = epb_data
+END
+
+BEGIN sys_block
+ PARAMETER INSTANCE = sys_block_inst
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER BOARD_ID = 0xbabe
+ PARAMETER REV_MAJOR = 0x1
+ PARAMETER REV_MINOR = 0x0
+ PARAMETER REV_RCS = 0x0
+ PARAMETER RCS_UPTODATE = 0x0
+ PARAMETER C_BASEADDR = 0x00000000
+ PARAMETER C_HIGHADDR = 0x0000FFFF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT soft_reset = soft_reset
+ PORT irq_n = ppc_irq_n
+ PORT app_irq = 0x0000
+ #PORT fab_clk    = sys_clk
+  PORT fab_clk    = sys_clk
+END
+
+
+
+##############################################
+# User XSG IP core                           #
+##############################################
+
+BEGIN roach2_tut_intro
+ PARAMETER INSTANCE = roach2_tut_intro_XSG_core_config
+ PARAMETER HW_VER = 1.00.a
+ PORT clk = sys_clk
+ PORT roach2_tut_intro_a_user_data_out = roach2_tut_intro_a_user_data_out
+ PORT roach2_tut_intro_b_user_data_out = roach2_tut_intro_b_user_data_out
+ PORT roach2_tut_intro_counter_ctrl_user_data_out = roach2_tut_intro_counter_ctrl_user_data_out
+ PORT roach2_tut_intro_counter_value_user_data_in = roach2_tut_intro_counter_value_user_data_in
+ PORT roach2_tut_intro_gpio_gateway = roach2_tut_intro_gpio_gateway
+ PORT roach2_tut_intro_gpio1_gateway = roach2_tut_intro_gpio1_gateway
+ PORT roach2_tut_intro_gpio2_gateway = roach2_tut_intro_gpio2_gateway
+ PORT roach2_tut_intro_gpio3_gateway = roach2_tut_intro_gpio3_gateway
+ PORT roach2_tut_intro_sum_a_b_user_data_in = roach2_tut_intro_sum_a_b_user_data_in
+END
+
+############################
+# Simulink interfaces      #
+############################
+
+# roach2_tut_intro/XSG_core_config
+
+
+# roach2_tut_intro/a
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roach2_tut_intro_a
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01000000
+ PARAMETER C_HIGHADDR = 0x010000FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roach2_tut_intro_a_user_data_out
+ PORT user_clk = sys_clk
+END
+
+# roach2_tut_intro/b
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roach2_tut_intro_b
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01000100
+ PARAMETER C_HIGHADDR = 0x010001FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roach2_tut_intro_b_user_data_out
+ PORT user_clk = sys_clk
+END
+
+# roach2_tut_intro/counter_ctrl
+BEGIN opb_register_ppc2simulink
+ PARAMETER INSTANCE = roach2_tut_intro_counter_ctrl
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01000200
+ PARAMETER C_HIGHADDR = 0x010002FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_out = roach2_tut_intro_counter_ctrl_user_data_out
+ PORT user_clk = sys_clk
+END
+
+# roach2_tut_intro/counter_value
+BEGIN opb_register_simulink2ppc
+ PARAMETER INSTANCE = roach2_tut_intro_counter_value
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01000300
+ PARAMETER C_HIGHADDR = 0x010003FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_in = roach2_tut_intro_counter_value_user_data_in
+ PORT user_clk = sys_clk
+END
+
+# roach2_tut_intro/gpio
+BEGIN gpio_simulink2ext
+ PARAMETER INSTANCE = roach2_tut_intro_gpio
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER DDR = 0
+ PARAMETER WIDTH = 1
+ PARAMETER CLK_PHASE = 0
+ PARAMETER REG_IOB = true
+ PORT gateway = roach2_tut_intro_gpio_gateway
+ PORT io_pad = roach2_tut_intro_gpio_ext
+ PORT clk = sys_clk
+ PORT clk90 = sys_clk90
+END
+PORT roach2_tut_intro_gpio_ext = roach2_tut_intro_gpio_ext, DIR = out, VEC = [0:0]
+
+# roach2_tut_intro/gpio1
+BEGIN gpio_simulink2ext
+ PARAMETER INSTANCE = roach2_tut_intro_gpio1
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER DDR = 0
+ PARAMETER WIDTH = 1
+ PARAMETER CLK_PHASE = 0
+ PARAMETER REG_IOB = true
+ PORT gateway = roach2_tut_intro_gpio1_gateway
+ PORT io_pad = roach2_tut_intro_gpio1_ext
+ PORT clk = sys_clk
+ PORT clk90 = sys_clk90
+END
+PORT roach2_tut_intro_gpio1_ext = roach2_tut_intro_gpio1_ext, DIR = out, VEC = [0:0]
+
+# roach2_tut_intro/gpio2
+BEGIN gpio_simulink2ext
+ PARAMETER INSTANCE = roach2_tut_intro_gpio2
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER DDR = 0
+ PARAMETER WIDTH = 1
+ PARAMETER CLK_PHASE = 0
+ PARAMETER REG_IOB = true
+ PORT gateway = roach2_tut_intro_gpio2_gateway
+ PORT io_pad = roach2_tut_intro_gpio2_ext
+ PORT clk = sys_clk
+ PORT clk90 = sys_clk90
+END
+PORT roach2_tut_intro_gpio2_ext = roach2_tut_intro_gpio2_ext, DIR = out, VEC = [0:0]
+
+# roach2_tut_intro/gpio3
+BEGIN gpio_simulink2ext
+ PARAMETER INSTANCE = roach2_tut_intro_gpio3
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER DDR = 0
+ PARAMETER WIDTH = 1
+ PARAMETER CLK_PHASE = 0
+ PARAMETER REG_IOB = true
+ PORT gateway = roach2_tut_intro_gpio3_gateway
+ PORT io_pad = roach2_tut_intro_gpio3_ext
+ PORT clk = sys_clk
+ PORT clk90 = sys_clk90
+END
+PORT roach2_tut_intro_gpio3_ext = roach2_tut_intro_gpio3_ext, DIR = out, VEC = [0:0]
+
+# roach2_tut_intro/sum_a_b
+BEGIN opb_register_simulink2ppc
+ PARAMETER INSTANCE = roach2_tut_intro_sum_a_b
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x01000400
+ PARAMETER C_HIGHADDR = 0x010004FF
+ BUS_INTERFACE SOPB = opb0
+ PORT OPB_Clk = epb_clk
+ PORT user_data_in = roach2_tut_intro_sum_a_b_user_data_in
+ PORT user_clk = sys_clk
+END
+

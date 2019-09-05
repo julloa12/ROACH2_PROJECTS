@@ -1,0 +1,7 @@
+INFILE=/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/implementation/system.ncd
+OUTFILE=/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/implementation/system.bit
+FAMILY=Virtex6
+PART=xc6vsx475t-1ff1759
+WORKINGDIR=/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/implementation
+LICENSE=ISE
+USER_INFO=__0_0_0

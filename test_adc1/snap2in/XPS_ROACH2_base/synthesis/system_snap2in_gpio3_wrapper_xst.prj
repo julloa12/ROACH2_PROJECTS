@@ -1,0 +1,2 @@
+VHDL gpio_simulink2ext_v1_00_a /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/pcores/gpio_simulink2ext_v1_00_a/hdl/vhdl/gpio_simulink2ext.vhd
+vhdl work ../hdl/system_snap2in_gpio3_wrapper.vhd

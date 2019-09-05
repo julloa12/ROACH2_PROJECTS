@@ -1,0 +1,192 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -e 200 -xml system.twx
+system.ncd system.pcf
+
+Design file:              system.ncd
+Physical constraint file: system.pcf
+Device,package,speed:     xc6vsx475t,ff1759,C,-1 (PRODUCTION 1.17 2013-10-13)
+Report level:             error report, limited to 200 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET 
+"snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/adc_clk" PERIOD =      
+   7.2727 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   3.332ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net 
+"snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/adc_clk_div" derived 
+from  NET "snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/adc_clk" 
+PERIOD =        7.2727 ns HIGH 50%;  duty cycle corrected to 7.273 nS  HIGH 
+3.636 nS  
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   4.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net 
+"snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/mmcm_clkout2" derived 
+from  NET "snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/adc_clk" 
+PERIOD =        7.2727 ns HIGH 50%;  multiplied by 2.00 to 14.545 nS   
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   1.429ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net 
+"snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/mmcm_clkout1" derived 
+from  NET "snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/adc_clk" 
+PERIOD =        7.2727 ns HIGH 50%;  multiplied by 2.00 to 14.545 nS   
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 5773 paths analyzed, 4549 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   3.999ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_sys_clk_n = PERIOD TIMEGRP "sys_clk_n" 100 MHz HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   4.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_epb_clk_in = PERIOD TIMEGRP "epb_clk_in" 67 MHz HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 13988 paths analyzed, 2360 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   7.621ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_infrastructure_inst_infrastructure_inst_clk_200_mmcm = 
+PERIOD TIMEGRP         "infrastructure_inst_infrastructure_inst_clk_200_mmcm" 
+TS_sys_clk_n *         2 HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 0 paths analyzed, 0 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 component switching limit errors)
+ Minimum period is   4.761ns.
+--------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Derived Constraints for snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/adc_clk
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|snapshot_roach2_asiaa_adc5g/sna|      7.273ns|      3.332ns|      4.000ns|            0|            0|            0|         5773|
+|pshot_roach2_asiaa_adc5g/adc_cl|             |             |             |             |             |             |             |
+|k                              |             |             |             |             |             |             |             |
+| snapshot_roach2_asiaa_adc5g/sn|      7.273ns|      4.000ns|      2.000ns|            0|            0|            0|         5773|
+| apshot_roach2_asiaa_adc5g/adc_|             |             |             |             |             |             |             |
+| clk_div                       |             |             |             |             |             |             |             |
+|  snapshot_roach2_asiaa_adc5g/s|     14.545ns|      1.429ns|          N/A|            0|            0|            0|            0|
+|  napshot_roach2_asiaa_adc5g/mm|             |             |             |             |             |             |             |
+|  cm_clkout2                   |             |             |             |             |             |             |             |
+|  snapshot_roach2_asiaa_adc5g/s|     14.545ns|      3.999ns|          N/A|            0|            0|         5773|            0|
+|  napshot_roach2_asiaa_adc5g/mm|             |             |             |             |             |             |             |
+|  cm_clkout1                   |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+Derived Constraints for TS_sys_clk_n
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_sys_clk_n                   |     10.000ns|      4.000ns|      9.522ns|            0|            0|            0|            0|
+| TS_infrastructure_inst_infrast|      5.000ns|      4.761ns|          N/A|            0|            0|            0|            0|
+| ructure_inst_clk_200_mmcm     |             |             |             |             |             |             |             |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock adc0clk_n
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adc0clk_n      |    3.999|         |         |         |
+adc0clk_p      |    3.999|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock adc0clk_p
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+adc0clk_n      |    3.999|         |         |         |
+adc0clk_p      |    3.999|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock epb_clk_in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+epb_clk_in     |    7.621|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 19761 paths, 0 nets, and 6846 connections
+
+Design statistics:
+   Minimum period:   7.621ns   (Maximum frequency: 131.216MHz)
+
+
+Analysis completed Mon Sep  2 10:30:01 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 1196 MB
+
+
+

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk90</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk180</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk270</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk_lock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk2x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk2x90</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk2x180</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">sys_clk2x270</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk90</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk180</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk270</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk2x</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk2x90</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk2x180</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">aux_clk2x270</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">idelay_rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">clk_200</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">504</arg>: Output port &lt;<arg fmt="%s" index="3">clk_100</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">infrastructure_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">536</arg>: Output port &lt;<arg fmt="%s" index="3">op_reset_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">reset_block_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_MRequest</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_rdDBus</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_wrDBus</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_pendReq</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_beXfer</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_beAck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_busLock</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_dwAck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_dwXfer</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_fwAck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_fwXfer</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_hwAck</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_hwXfer</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">544</arg>: Output port &lt;<arg fmt="%s" index="3">OPB_toutSup</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">opb0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">642</arg>: Output port &lt;<arg fmt="%s" index="3">soft_reset</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sys_block_inst</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">688</arg>: Output port &lt;<arg fmt="%s" index="3">adc_clk180_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">snap2in_adc_mkid_4x</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">688</arg>: Output port &lt;<arg fmt="%s" index="3">adc_clk270_out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">snap2in_adc_mkid_4x</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system.vhd</arg>&quot; line <arg fmt="%s" index="2">688</arg>: Output port &lt;<arg fmt="%s" index="3">adc_dcm_locked</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">snap2in_adc_mkid_4x</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">blk00000004</arg> in unit <arg fmt="%s" index="2">blk00000004</arg> of type <arg fmt="%s" index="3">DSP48E</arg> has been replaced by <arg fmt="%s" index="4">DSP48E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="new" >Instance <arg fmt="%s" index="1">blk00000004</arg> in unit <arg fmt="%s" index="2">blk00000004</arg> of type <arg fmt="%s" index="3">DSP48E</arg> has been replaced by <arg fmt="%s" index="4">DSP48E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_adcsnap0_status/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_adcsnap0_status</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_adcsnap0_status/register_readyRR_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_adcsnap0_trig_offset/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_adcsnap0_trig_offset</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_adcsnap0_trig_offset/register_readyRR_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[4].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[5].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[6].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[7].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[8].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[9].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[10].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[11].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[12].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_x0/adcsnap0_c94d11adb5/add_del/op_mem_20_24_0_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_XSG_core_config</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_x0/adcsnap0_c94d11adb5/add_gen_e00c7fa4f8/delay1/srl_delay.synth_reg_srl_inst/partial_one.last_srl17e/reg_array[13].fde_used.u2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_adcsnap0_status/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_adcsnap0_status</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_adcsnap0_status/register_readyRR_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2260" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">snap2in_adcsnap0_trig_offset/register_readyRR</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">snap2in_adcsnap0_trig_offset</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg> : <arg fmt="%s" index="4">&lt;snap2in_adcsnap0_trig_offset/register_readyRR_1&gt; </arg>
+</msg>
+
+</messages>
+

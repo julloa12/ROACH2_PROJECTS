@@ -1,0 +1,11 @@
+#############################################################################
+##
+## IP Name  : snapshot_roach2
+## Desc     : Automatically generated IP core wrapping a
+##            Simulink Xilinx System Generator netlist.
+##            Please do not modify by hand, this file will be erased
+##
+#############################################################################
+
+Files
+snapshot_roach2.ngc

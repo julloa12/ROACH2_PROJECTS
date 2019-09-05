@@ -1,0 +1,251 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_epb_infrastructure_inst_wrapper_xst.prj"
+Verilog Include Directory          : {"/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc6vsx475tff1759-1
+Output File Name                   : "../implementation/system_epb_infrastructure_inst_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_epb_infrastructure_inst_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/pcores/epb_infrastructure_v1_00_a/hdl/verilog/epb_infrastructure.v" into library epb_infrastructure_v1_00_a
+Parsing module <epb_infrastructure>.
+Analyzing Verilog file "/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system_epb_infrastructure_inst_wrapper.v" into library work
+Parsing module <system_epb_infrastructure_inst_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <system_epb_infrastructure_inst_wrapper>.
+
+Elaborating module <epb_infrastructure>.
+
+Elaborating module <IOBUF>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_epb_infrastructure_inst_wrapper>.
+    Related source file is "/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system_epb_infrastructure_inst_wrapper.v".
+    Summary:
+	no macro.
+Unit <system_epb_infrastructure_inst_wrapper> synthesized.
+
+Synthesizing Unit <epb_infrastructure>.
+    Related source file is "/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/pcores/epb_infrastructure_v1_00_a/hdl/verilog/epb_infrastructure.v".
+    Summary:
+	no macro.
+Unit <epb_infrastructure> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system_epb_infrastructure_inst_wrapper> ...
+
+Optimizing unit <epb_infrastructure> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_epb_infrastructure_inst_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_epb_infrastructure_inst_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# IO Buffers                       : 32
+#      IOBUF                       : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vsx475tff1759-1 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          97
+ Number of bonded IOBs:                  96  out of    840    11%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 0.003ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 96 / 64
+-------------------------------------------------------------------------
+Delay:               0.003ns (Levels of Logic = 1)
+  Source:            epb_data_out_i<31> (PAD)
+  Destination:       epb_data_buf<31> (PAD)
+
+  Data Path: epb_data_out_i<31> to epb_data_buf<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IOBUF:I->IO               0.003          epb_infrastructure_inst/iob_data<31> (epb_data_buf<31>)
+    ----------------------------------------
+    Total                      0.003ns (0.003ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.66 secs
+ 
+--> 
+
+
+Total memory usage is 406748 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

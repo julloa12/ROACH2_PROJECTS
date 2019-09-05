@@ -1,0 +1,293 @@
+Release 14.7 - platgen Xilinx EDK 14.7 Build EDK_P.20131013
+ (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: platgen -p xc6vsx475tff1759-1 -lang vhdl -intstyle default -msg
+__xps/ise/xmsgprops.lst system.mhs 
+
+Parse /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs ...
+
+Read MPD definitions ...
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE: snap2in_adcsnap0_bram -
+   Superseded core for architecture 'virtex6sx' -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line
+   251 
+WARNING:EDK:4088 - IPNAME: opb_bram_if_cntlr, INSTANCE: snap2in_adcsnap0_bram -
+   Superseded core for architecture 'virtex6sx' -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line
+   251 
+
+Overriding IP level properties ...
+
+Computing clock values...
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:sys_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   snap2in_adc_mkid_4x:adc_clk_out. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   snap2in_adc_mkid_4x:adc_clk_out. Clock DRCs will not be performed on this
+   core and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:740 - Cannot determine the input clock associated with port :
+   infrastructure_inst:epb_clk. Clock DRCs will not be performed on this core
+   and cores connected to it. 
+INFO:EDK:1039 - Did not update the value for parameter:
+   snap2in_adcsnap0_bram:c_opb_clk_period_ps. Top-level frequency could not be
+   propagated to this IP. Please make sure that you have specified the frequency
+   of the top-level clock port, and that the clocks are properly connected.
+
+Performing IP level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION IPLEVEL_DRC_PROC...
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_MASTERS value to 1 -
+   /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/da
+   ta/opb_v20_v2_1_0.mpd line 74 
+INFO:EDK:4130 - IPNAME: opb_v20, INSTANCE:opb0 - tool is overriding PARAMETER
+   C_NUM_SLAVES value to 5 -
+   /opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/da
+   ta/opb_v20_v2_1_0.mpd line 75 
+
+Checking platform address map ...
+
+Checking platform configuration ...
+IPNAME: opb_v20, INSTANCE: opb0 - 1 master(s) : 5 slave(s) 
+
+Checking port drivers...
+WARNING:EDK:4181 - PORT: sys_clk90, CONNECTOR: sys_clk90 - floating connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 64
+    
+WARNING:EDK:4181 - PORT: sys_clk180, CONNECTOR: sys_clk180 - floating connection
+   - /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line
+   65 
+WARNING:EDK:4181 - PORT: sys_clk270, CONNECTOR: sys_clk270 - floating connection
+   - /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line
+   66 
+WARNING:EDK:4181 - PORT: sys_clk_lock, CONNECTOR: sys_clk_lock - floating
+   connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 67
+    
+WARNING:EDK:4181 - PORT: sys_clk2x, CONNECTOR: sys_clk2x - floating connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 68
+    
+WARNING:EDK:4181 - PORT: sys_clk2x90, CONNECTOR: sys_clk2x90 - floating
+   connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 69
+    
+WARNING:EDK:4181 - PORT: sys_clk2x180, CONNECTOR: sys_clk2x180 - floating
+   connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 70
+    
+WARNING:EDK:4181 - PORT: sys_clk2x270, CONNECTOR: sys_clk2x270 - floating
+   connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 71
+    
+WARNING:EDK:4181 - PORT: aux_clk, CONNECTOR: aux_clk - floating connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 72
+    
+WARNING:EDK:4181 - PORT: aux_clk90, CONNECTOR: aux_clk90 - floating connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 73
+    
+WARNING:EDK:4181 - PORT: aux_clk180, CONNECTOR: aux_clk180 - floating connection
+   - /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line
+   74 
+WARNING:EDK:4181 - PORT: aux_clk270, CONNECTOR: aux_clk270 - floating connection
+   - /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line
+   75 
+WARNING:EDK:4181 - PORT: aux_clk2x, CONNECTOR: aux_clk2x - floating connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 76
+    
+WARNING:EDK:4181 - PORT: aux_clk2x90, CONNECTOR: aux_clk2x90 - floating
+   connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 77
+    
+WARNING:EDK:4181 - PORT: aux_clk2x180, CONNECTOR: aux_clk2x180 - floating
+   connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 78
+    
+WARNING:EDK:4181 - PORT: aux_clk2x270, CONNECTOR: aux_clk2x270 - floating
+   connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 79
+    
+WARNING:EDK:4181 - PORT: idelay_rdy, CONNECTOR: idelay_rdy - floating connection
+   - /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line
+   82 
+WARNING:EDK:4181 - PORT: clk_100, CONNECTOR: clk_100 - floating connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 84
+    
+WARNING:EDK:4181 - PORT: op_reset_o, CONNECTOR: sys_reset - floating connection
+   - /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line
+   94 
+WARNING:EDK:4181 - PORT: soft_reset, CONNECTOR: soft_reset - floating connection
+   - /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line
+   144 
+WARNING:EDK:4181 - PORT: adc_clk180_out, CONNECTOR: adc0_clk180 - floating
+   connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line
+   217 
+WARNING:EDK:4181 - PORT: adc_clk270_out, CONNECTOR: adc0_clk270 - floating
+   connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line
+   218 
+WARNING:EDK:4181 - PORT: adc_dcm_locked, CONNECTOR: adc0_dcm_locked - floating
+   connection -
+   /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line
+   219 
+
+Performing Clock DRCs...
+INFO:EDK:4060 - INSTANCE: snap2in_adcsnap0_bram, PARAMETER: c_opb_clk_period_ps
+   - Did not implement clock DRCs for the parameter. Top-level frequency could
+   not be propagated to this IP. Please make sure that you have specified the
+   frequency of the top-level clock port, and that the clocks are properly
+   connected.
+
+Performing Reset DRCs...
+
+Overriding system level properties...
+
+Running system level update procedures...
+
+Running UPDATE Tcl procedures for OPTION SYSLEVEL_UPDATE_PROC...
+
+Running system level DRCs...
+
+Performing System level DRCs on properties...
+
+Running DRC Tcl procedures for OPTION SYSLEVEL_DRC_PROC...
+
+Running UPDATE Tcl procedures for OPTION PLATGEN_SYSLEVEL_UPDATE_PROC...
+NETLIST CACHE HIT - Copying
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/../cache_dir/0e2898ac
+74cc2bf5a187d970b8b7464abccfe677.ngc to
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/implementation/snap2i
+n_adcsnap0_bram_ramblk_wrapper/bram.ngc
+
+Modify defaults ...
+
+Creating stub ...
+
+Processing licensed instances ...
+Completion time: 0.00 seconds
+
+Creating hardware output directories ...
+
+Managing hardware (BBD-specified) netlist files ...
+IPNAME:snap2in INSTANCE:snap2in_xsg_core_config -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 157 -
+Copying (BBD-specified) netlist files.
+IPNAME:bram_block_custom INSTANCE:snap2in_adcsnap0_bram_ramblk -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 233 -
+Copying (BBD-specified) netlist files.
+
+Managing cache ...
+
+Elaborating instances ...
+
+Writing HDL for elaborated instances ...
+
+Inserting wrapper level ...
+Completion time: 0.00 seconds
+
+Constructing platform-level connectivity ...
+Completion time: 0.00 seconds
+
+Writing (top-level) BMM ...
+
+Writing (top-level and wrappers) HDL ...
+
+Generating synthesis project file ...
+
+Running XST synthesis ...
+
+INFO:EDK:4211 - The following instances are synthesized with XST. The MPD option
+   IMP_NETLIST=TRUE indicates that a NGC file is to be produced using XST
+   synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+INSTANCE:infrastructure_inst -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 45 -
+Running XST synthesis
+INSTANCE:reset_block_inst -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 87 -
+Running XST synthesis
+INSTANCE:opb0 -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 97 -
+Running XST synthesis
+INSTANCE:epb_opb_bridge_inst -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 106 -
+Running XST synthesis
+INSTANCE:epb_infrastructure_inst -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 123 -
+Running XST synthesis
+INSTANCE:sys_block_inst -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 132 -
+Running XST synthesis
+INSTANCE:snap2in_xsg_core_config -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 157 -
+Running XST synthesis
+INSTANCE:snap2in_adc_mkid_4x -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 191 -
+Running XST synthesis
+INSTANCE:snap2in_adcsnap0_bram_ramblk -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 233 -
+Running XST synthesis
+INSTANCE:snap2in_adcsnap0_bram -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 251 -
+Running XST synthesis
+INSTANCE:snap2in_adcsnap0_ctrl -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 263 -
+Running XST synthesis
+INSTANCE:snap2in_adcsnap0_status -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 275 -
+Running XST synthesis
+INSTANCE:snap2in_adcsnap0_trig_offset -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 287 -
+Running XST synthesis
+INSTANCE:snap2in_gpio -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 299 -
+Running XST synthesis
+INSTANCE:snap2in_gpio1 -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 314 -
+Running XST synthesis
+INSTANCE:snap2in_gpio2 -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 329 -
+Running XST synthesis
+INSTANCE:snap2in_gpio3 -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 344 -
+Running XST synthesis
+
+Running NGCBUILD ...
+IPNAME:system_snap2in_xsg_core_config_wrapper INSTANCE:snap2in_xsg_core_config -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 157 -
+Running NGCBUILD
+IPNAME:system_snap2in_adcsnap0_bram_ramblk_wrapper
+INSTANCE:snap2in_adcsnap0_bram_ramblk -
+/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/system.mhs line 233 -
+Running NGCBUILD
+INFO:EDK:3509 - NCF files should not be modified as they will be regenerated.
+   If any constraint needs to be overridden, this should be done by modifying
+   the data/system.ucf file.
+
+Rebuilding cache ...
+
+Total run time: 201.00 seconds

@@ -1,0 +1,56 @@
+#############################################################################
+##
+## IP Name  : roach2_tut_intro
+## Desc     : Automatically generated IP core wrapping a
+##            Simulink Xilinx System Generator netlist.
+##            Please do not modify by hand, this file will be erased
+##
+#############################################################################
+
+BEGIN roach2_tut_intro
+
+###################
+# Generic Options #
+###################
+OPTION IPTYPE = IP
+OPTION STYLE  = BLACKBOX
+
+###################
+# Clock port      #
+###################
+PORT clk = "", DIR = I, SIGIS = CLK, CLK_FREQ = 100000000
+
+###################
+# Interfaces      #
+###################
+
+# roach2_tut_intro/XSG_core_config
+
+# roach2_tut_intro/a
+PORT roach2_tut_intro_a_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_intro/b
+PORT roach2_tut_intro_b_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_intro/counter_ctrl
+PORT roach2_tut_intro_counter_ctrl_user_data_out = "", DIR = in, VEC = [31:0]
+
+# roach2_tut_intro/counter_value
+PORT roach2_tut_intro_counter_value_user_data_in = "", DIR = out, VEC = [31:0]
+
+# roach2_tut_intro/gpio
+PORT roach2_tut_intro_gpio_gateway = "", DIR = out
+
+# roach2_tut_intro/gpio1
+PORT roach2_tut_intro_gpio1_gateway = "", DIR = out
+
+# roach2_tut_intro/gpio2
+PORT roach2_tut_intro_gpio2_gateway = "", DIR = out
+
+# roach2_tut_intro/gpio3
+PORT roach2_tut_intro_gpio3_gateway = "", DIR = out
+
+# roach2_tut_intro/sum_a_b
+PORT roach2_tut_intro_sum_a_b_user_data_in = "", DIR = out, VEC = [31:0]
+
+END

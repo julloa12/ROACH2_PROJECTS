@@ -1,0 +1,36 @@
+Release 14.7 - par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Sep  2 10:29:32 2019
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 24 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM10_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM11_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM12_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM13_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM14_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM15_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM16_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM17_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM18_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM19_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM1_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM20_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM21_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM22_RAMB_D1_DPO
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM22_RAMC_D1_DPO
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM22_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM2_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM3_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM4_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM5_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM6_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM7_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM8_RAMD_D1_O
+   snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RAM9_RAMD_D1_O
+
+

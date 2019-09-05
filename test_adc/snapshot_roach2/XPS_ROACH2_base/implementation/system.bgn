@@ -1,0 +1,262 @@
+Release 14.7 - Bitgen P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+PMSPEC -- Overriding Xilinx file
+</opt/Xilinx/14.7/ISE_DS/EDK/virtex6/data/virtex6.acd> with local file
+</opt/Xilinx/14.7/ISE_DS/ISE/virtex6/data/virtex6.acd>
+Loading device for application Rf_Device from file '6vsx475t.nph' in environment
+/opt/Xilinx/14.7/ISE_DS/ISE/:/opt/Xilinx/14.7/ISE_DS/EDK.
+   "system" is an NCD, version 3.2, device xc6vsx475t, package ff1759, speed -1
+Opened constraints file system.pcf.
+
+Mon Sep  2 10:30:14 2019
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -w -g TdoPin:PULLNONE -g DriveDone:No -g StartUpClk:CCLK -g DONE_cycle:4 -g GTS_cycle:2 -g TckPin:PULLUP -g TdiPin:PULLUP -g TmsPin:PULLUP -g DonePipe:No -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:NONE -g Persist:No -g binary:Yes system.ncd 
+
+Summary of Bitgen Options:
++----------------------+----------------------+
+| Option Name          | Current Setting      |
++----------------------+----------------------+
+| Compress             | (Not Specified)*     |
++----------------------+----------------------+
+| Readback             | (Not Specified)*     |
++----------------------+----------------------+
+| CRC                  | Enable*              |
++----------------------+----------------------+
+| DebugBitstream       | No*                  |
++----------------------+----------------------+
+| ConfigRate           | 2*                   |
++----------------------+----------------------+
+| StartupClk           | Cclk**               |
++----------------------+----------------------+
+| CclkPin              | Pullup*              |
++----------------------+----------------------+
+| DonePin              | Pullup*              |
++----------------------+----------------------+
+| HswapenPin           | Pullup*              |
++----------------------+----------------------+
+| M0Pin                | Pullup*              |
++----------------------+----------------------+
+| M1Pin                | Pullup*              |
++----------------------+----------------------+
+| M2Pin                | Pullup*              |
++----------------------+----------------------+
+| ProgPin              | Pullup*              |
++----------------------+----------------------+
+| InitPin              | Pullup*              |
++----------------------+----------------------+
+| CsPin                | Pullup*              |
++----------------------+----------------------+
+| DinPin               | Pullup*              |
++----------------------+----------------------+
+| BusyPin              | Pullup*              |
++----------------------+----------------------+
+| RdWrPin              | Pullup*              |
++----------------------+----------------------+
+| TckPin               | Pullup**             |
++----------------------+----------------------+
+| TdiPin               | Pullup**             |
++----------------------+----------------------+
+| TdoPin               | Pullnone             |
++----------------------+----------------------+
+| TmsPin               | Pullup**             |
++----------------------+----------------------+
+| UnusedPin            | Pulldown*            |
++----------------------+----------------------+
+| GWE_cycle            | 6**                  |
++----------------------+----------------------+
+| GTS_cycle            | 2                    |
++----------------------+----------------------+
+| OverTempPowerDown    | Disable*             |
++----------------------+----------------------+
+| LCK_cycle            | NoWait**             |
++----------------------+----------------------+
+| Match_cycle          | NoWait               |
++----------------------+----------------------+
+| DONE_cycle           | 4**                  |
++----------------------+----------------------+
+| Persist              | No**                 |
++----------------------+----------------------+
+| DriveDone            | No**                 |
++----------------------+----------------------+
+| DonePipe             | No**                 |
++----------------------+----------------------+
+| Security             | None**               |
++----------------------+----------------------+
+| UserID               | 0xFFFFFFFF*          |
++----------------------+----------------------+
+| ActiveReconfig       | No*                  |
++----------------------+----------------------+
+| Encrypt              | No*                  |
++----------------------+----------------------+
+| EncryptKeySelect     | bbram*               |
++----------------------+----------------------+
+| Key0                 | pick*                |
++----------------------+----------------------+
+| StartCBC             | pick*                |
++----------------------+----------------------+
+| HKey                 | pick*                |
++----------------------+----------------------+
+| KeyFile              | (Not Specified)*     |
++----------------------+----------------------+
+| DCIUpdateMode        | Quiet*               |
++----------------------+----------------------+
+| ConfigFallback       | Enable*              |
++----------------------+----------------------+
+| SelectMAPAbort       | Enable*              |
++----------------------+----------------------+
+| BPI_page_size        | 1*                   |
++----------------------+----------------------+
+| BPI_1st_read_cycle   | 1*                   |
++----------------------+----------------------+
+| next_config_addr     | None*                |
++----------------------+----------------------+
+| DoneSignalsPowerDown | Disable*             |
++----------------------+----------------------+
+| InitSignalsError     | Enable*              |
++----------------------+----------------------+
+| ICAP_Encryption      | Disable*             |
++----------------------+----------------------+
+| SysmonPartialReconfig | Disable*             |
++----------------------+----------------------+
+| SecAll               | No*                  |
++----------------------+----------------------+
+| SecError             | No*                  |
++----------------------+----------------------+
+| SecStatus            | No*                  |
++----------------------+----------------------+
+| JTAG_SysMon          | Enable*              |
++----------------------+----------------------+
+| Disable_JTAG         | No*                  |
++----------------------+----------------------+
+| Partial              | (Not Specified)*     |
++----------------------+----------------------+
+| TIMER_CFG            | None*                |
++----------------------+----------------------+
+| TIMER_USR            | None*                |
++----------------------+----------------------+
+| USR_ACCESS           | None*                |
++----------------------+----------------------+
+| TimeStamp            | Default*             |
++----------------------+----------------------+
+| IEEE1532             | No*                  |
++----------------------+----------------------+
+| Binary               | Yes                  |
++----------------------+----------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+There were 9 CONFIG constraint(s) processed from system.pcf.
+
+   CONFIG DCI_CASCADE = "14,13"
+   CONFIG DCI_CASCADE = "23,22"
+   CONFIG DCI_CASCADE = "28,27"
+   CONFIG DCI_CASCADE = "32,33"
+   CONFIG DCI_CASCADE = "36,35,37,38"
+   CONFIG INTERNAL_VREF_BANK12 = "0.75"
+   CONFIG INTERNAL_VREF_BANK13 = "0.75"
+   CONFIG INTERNAL_VREF_BANK22 = "0.75"
+   CONFIG INTERNAL_VREF_BANK23 = "0.75"
+
+Running DRC.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM8_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM7_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM10_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM9_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM6_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM2_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM3_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM5_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM1_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM4_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM20_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM22_RAMB_D1_DPO> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM22_RAMC_D1_DPO> is incomplete. The signal does not drive
+   any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM22_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM21_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM19_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM11_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM18_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM17_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM16_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM14_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM15_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM12_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <snapshot_roach2_asiaa_adc5g/snapshot_roach2_asiaa_adc5g/FIFO/BU2/U0/grf.rf/m
+   em/gdm.dm/Mram_RAM13_RAMD_D1_O> is incomplete. The signal does not drive any
+   load pins in the design.
+DRC detected 0 errors and 24 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
+Creating bit map...
+Saving bit stream in "system.bit".
+Saving bit stream in "system.bin".
+Bitstream generation is complete.

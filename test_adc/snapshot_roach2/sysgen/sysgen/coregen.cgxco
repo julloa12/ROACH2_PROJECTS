@@ -1,0 +1,72 @@
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 1
+CSET latency = 1
+CSET load = false
+CSET output_width = 2
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_541f86689cddfa59
+GENERATE
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = virtex6
+SET simulationfiles = Behavioral
+SET devicefamily = virtex6
+SET device = xc6vsx475t
+SET package = ff1759
+SET speedgrade = -1
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter virtex6 Xilinx,_Inc. 11.0
+# 14.7_P.79
+# DEVICE virtex6
+# VHDL
+CSET ainit_value = 0
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 10
+CSET latency = 1
+CSET load = false
+CSET output_width = 15
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 0
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_e45fdd6bbd8931af
+GENERATE

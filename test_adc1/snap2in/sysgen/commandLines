@@ -1,0 +1,1 @@
+/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/bin/lin64/saferun -a /home/ulloaroach2/design/test_adc1/snap2in/sysgen/snap2in_cw_import.log -- /opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64/xtclsh ProjectGeneration.tcl

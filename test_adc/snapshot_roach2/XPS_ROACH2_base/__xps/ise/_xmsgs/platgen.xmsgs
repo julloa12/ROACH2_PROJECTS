@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_bram_if_cntlr</arg>, INSTANCE: <arg fmt="%s" index="2">snapshot_roach2_snapshot_bram</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 337</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4088" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_bram_if_cntlr</arg>, INSTANCE: <arg fmt="%s" index="2">snapshot_roach2_snapshot_bram</arg> - <arg fmt="%s" index="3">Superseded</arg> core for architecture &apos;<arg fmt="%s" index="4">virtex6sx</arg>&apos; - <arg fmt="%s" index="5">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 337</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">sys_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="740" delta="new" >Cannot determine the input clock associated with port : <arg fmt="%s" index="1">infrastructure_inst</arg>:<arg fmt="%s" index="2">epb_clk</arg>. Clock DRCs will not be performed on this core and cores connected to it. 
+</msg>
+
+<msg type="info" file="EDK" num="1039" delta="new" >Did not update the value for parameter: <arg fmt="%s" index="1">snapshot_roach2_snapshot_bram</arg>:<arg fmt="%s" index="2">c_opb_clk_period_ps</arg>. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_v20</arg>, INSTANCE:<arg fmt="%s" index="2">opb0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_NUM_MASTERS</arg> value to <arg fmt="%s" index="6">1</arg> - <arg fmt="%s" index="7">/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 74</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4130" delta="new" >IPNAME: <arg fmt="%s" index="1">opb_v20</arg>, INSTANCE:<arg fmt="%s" index="2">opb0</arg> - <arg fmt="%s" index="3">tool</arg> is overriding <arg fmt="%s" index="4">PARAMETER</arg> <arg fmt="%s" index="5">C_NUM_SLAVES</arg> value to <arg fmt="%s" index="6">5</arg> - <arg fmt="%s" index="7">/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/opb_v20_v1_10_c/data/opb_v20_v2_1_0.mpd line 75</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk90</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk90</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 116</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk180</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk180</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 117</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk270</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk270</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 118</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk_lock</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk_lock</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 119</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk2x</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk2x</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 120</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk2x90</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk2x90</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 121</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk2x180</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk2x180</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 122</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">sys_clk2x270</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_clk2x270</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 123</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 124</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk90</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk90</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 125</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk180</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk180</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 126</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk270</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk270</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 127</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk2x</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk2x</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 128</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk2x90</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk2x90</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 129</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk2x180</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk2x180</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 130</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">aux_clk2x270</arg>, CONNECTOR: <arg fmt="%s" index="2">aux_clk2x270</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 131</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">idelay_rdy</arg>, CONNECTOR: <arg fmt="%s" index="2">idelay_rdy</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 134</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">clk_100</arg>, CONNECTOR: <arg fmt="%s" index="2">clk_100</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 136</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">op_reset_o</arg>, CONNECTOR: <arg fmt="%s" index="2">sys_reset</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 146</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">soft_reset</arg>, CONNECTOR: <arg fmt="%s" index="2">soft_reset</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 196</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">ctrl_clk90_out</arg>, CONNECTOR: <arg fmt="%s" index="2">adc0_clk90</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 290</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">ctrl_clk180_out</arg>, CONNECTOR: <arg fmt="%s" index="2">adc0_clk180</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 291</arg> 
+</msg>
+
+<msg type="warning" file="EDK" num="4181" delta="new" >PORT: <arg fmt="%s" index="1">ctrl_clk270_out</arg>, CONNECTOR: <arg fmt="%s" index="2">adc0_clk270</arg> - floating connection - <arg fmt="%s" index="3">/home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/system.mhs line 292</arg> 
+</msg>
+
+<msg type="info" file="EDK" num="4060" delta="new" >INSTANCE: <arg fmt="%s" index="1">snapshot_roach2_snapshot_bram</arg>, PARAMETER: <arg fmt="%s" index="2">c_opb_clk_period_ps</arg> - Did not implement clock DRCs for the parameter. Top-level frequency could not be propagated to this IP. Please make sure that you have specified the frequency of the top-level clock port, and that the clocks are properly connected.
+</msg>
+
+<msg type="info" file="EDK" num="4211" delta="new" >The following instances are synthesized with <arg fmt="%s" index="1">XST</arg>. The MPD option IMP_NETLIST=TRUE indicates that a NGC file is to be produced using <arg fmt="%s" index="2">XST</arg> synthesis. IMP_NETLIST=FALSE (default) instances are not synthesized. 
+</msg>
+
+<msg type="info" file="EDK" num="3509" delta="new" >NCF files should not be modified as they will be regenerated.
+If any constraint needs to be overridden, this should be done by modifying the data/<arg fmt="%s" index="1">system</arg>.ucf file.
+</msg>
+
+</messages>
+

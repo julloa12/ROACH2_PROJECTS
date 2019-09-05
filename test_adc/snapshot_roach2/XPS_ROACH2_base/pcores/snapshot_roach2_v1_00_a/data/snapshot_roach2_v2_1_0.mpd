@@ -1,0 +1,60 @@
+#############################################################################
+##
+## IP Name  : snapshot_roach2
+## Desc     : Automatically generated IP core wrapping a
+##            Simulink Xilinx System Generator netlist.
+##            Please do not modify by hand, this file will be erased
+##
+#############################################################################
+
+BEGIN snapshot_roach2
+
+###################
+# Generic Options #
+###################
+OPTION IPTYPE = IP
+OPTION STYLE  = BLACKBOX
+
+###################
+# Clock port      #
+###################
+PORT clk = "", DIR = I, SIGIS = CLK, CLK_FREQ = 100000000
+
+###################
+# Interfaces      #
+###################
+
+# snapshot_roach2/XSG_core_config
+
+# snapshot_roach2/asiaa_adc5g
+PORT snapshot_roach2_asiaa_adc5g_sync = "", DIR = in
+PORT snapshot_roach2_asiaa_adc5g_user_data_i0 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_i1 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_i2 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_i3 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_i4 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_i5 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_i6 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_i7 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_q0 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_q1 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_q2 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_q3 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_q4 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_q5 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_q6 = "", DIR = in, VEC = [7:0]
+PORT snapshot_roach2_asiaa_adc5g_user_data_q7 = "", DIR = in, VEC = [7:0]
+
+# snapshot_roach2/snapshot/bram
+PORT snapshot_roach2_snapshot_bram_data_out = "", DIR = in, VEC = [127:0]
+PORT snapshot_roach2_snapshot_bram_addr = "", DIR = out, VEC = [9:0]
+PORT snapshot_roach2_snapshot_bram_data_in = "", DIR = out, VEC = [127:0]
+PORT snapshot_roach2_snapshot_bram_we = "", DIR = out
+
+# snapshot_roach2/snapshot/ctrl
+PORT snapshot_roach2_snapshot_ctrl_user_data_out = "", DIR = in, VEC = [31:0]
+
+# snapshot_roach2/snapshot/status
+PORT snapshot_roach2_snapshot_status_user_data_in = "", DIR = out, VEC = [31:0]
+
+END

@@ -1,0 +1,269 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/synthesis/xst_temp_dir/
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input Format                       : MIXED
+Input File Name                    : "system_snap2in_adcsnap0_bram_ramblk_wrapper_xst.prj"
+Verilog Include Directory          : {"/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxBFMinterface/pcores/" "/opt/Xilinx/14.7/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/" }
+
+---- Target Parameters
+Target Device                      : xc6vsx475tff1759-1
+Output File Name                   : "../implementation/system_snap2in_adcsnap0_bram_ramblk_wrapper.ngc"
+
+---- Source Options
+Top Module Name                    : system_snap2in_adcsnap0_bram_ramblk_wrapper
+
+---- Target Options
+Add IO Buffers                     : NO
+
+---- General Options
+Optimization Goal                  : speed
+Netlist Hierarchy                  : as_optimized
+Optimization Effort                : 1
+Hierarchy Separator                : /
+
+---- Other Options
+Cores Search Directories           : {../implementation}
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram_block_custom.v" into library bram_block_custom_v1_00_a
+Parsing module <bram_block_custom>.
+Analyzing Verilog file "/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram.v" into library bram_block_custom_v1_00_a
+Parsing module <bram>.
+Analyzing Verilog file "/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system_snap2in_adcsnap0_bram_ramblk_wrapper.v" into library work
+Parsing module <system_snap2in_adcsnap0_bram_ramblk_wrapper>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <system_snap2in_adcsnap0_bram_ramblk_wrapper>.
+
+Elaborating module <bram_block_custom(C_PORTA_DWIDTH=128,C_PORTA_AWIDTH=32,C_PORTA_NUM_WE=16,C_PORTA_DEPTH=10,OPTIMIZATION="Minimum_Area",REG_CORE_OUTPUT="false",REG_PRIM_OUTPUT="false",C_PORTB_DWIDTH=32,C_PORTB_AWIDTH=32,C_PORTB_NUM_WE=4,C_PORTB_DEPTH=12)>.
+
+Elaborating module <bram(WE_A=16,AW_A=10,DW_A=128,WE_B=4,AW_B=12,DW_B=32)>.
+WARNING:HDLCompiler:1499 - "/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram.v" Line 39: Empty module <bram(WE_A=16,AW_A=10,DW_A=128,WE_B=4,AW_B=12,DW_B=32)> remains a black box.
+WARNING:HDLCompiler:189 - "/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram_block_custom.v" Line 65: Size mismatch in connection of port <addrb>. Formal port size is 12-bit while actual signal size is 32-bit.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <system_snap2in_adcsnap0_bram_ramblk_wrapper>.
+    Related source file is "/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/hdl/system_snap2in_adcsnap0_bram_ramblk_wrapper.v".
+    Summary:
+	no macro.
+Unit <system_snap2in_adcsnap0_bram_ramblk_wrapper> synthesized.
+
+Synthesizing Unit <bram_block_custom>.
+    Related source file is "/home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/pcores/bram_block_custom_v1_00_a/hdl/verilog/bram_block_custom.v".
+        C_PORTA_DEPTH = 10
+        C_PORTB_DEPTH = 12
+        C_PORTA_DWIDTH = 128
+        C_PORTA_AWIDTH = 32
+        C_PORTA_NUM_WE = 16
+        C_PORTB_DWIDTH = 32
+        C_PORTB_AWIDTH = 32
+        C_PORTB_NUM_WE = 4
+        OPTIMIZATION = "Minimum_Area"
+        REG_CORE_OUTPUT = "false"
+        REG_PRIM_OUTPUT = "false"
+WARNING:Xst:647 - Input <BRAM_Addr_B<30:31>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <bram_en_a> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BRAM_Rst_B> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BRAM_EN_B> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <bram_block_custom> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <system_snap2in_adcsnap0_bram_ramblk_wrapper> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 0) on block system_snap2in_adcsnap0_bram_ramblk_wrapper, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : system_snap2in_adcsnap0_bram_ramblk_wrapper.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1
+#      VCC                         : 1
+# Others                           : 1
+#      bram                        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vsx475tff1759-1 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         372
+ Number of bonded IOBs:                   0  out of    840     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 0.000ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 364 / 364
+-------------------------------------------------------------------------
+Delay:               0.000ns (Levels of Logic = 0)
+  Source:            snap2in_adcsnap0_bram_ramblk/bram_inst:douta<127> (PAD)
+  Destination:       bram_rd_data<127> (PAD)
+
+  Data Path: snap2in_adcsnap0_bram_ramblk/bram_inst:douta<127> to bram_rd_data<127>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    bram:douta<127>        0   0.000   0.000  snap2in_adcsnap0_bram_ramblk/bram_inst (bram_rd_data<127>)
+    ----------------------------------------
+    Total                      0.000ns (0.000ns logic, 0.000ns route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.57 secs
+ 
+--> 
+
+
+Total memory usage is 407184 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

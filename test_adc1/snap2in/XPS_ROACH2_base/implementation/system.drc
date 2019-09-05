@@ -1,0 +1,91 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Sep  3 13:49:37 2019
+
+drc -z system.ncd system.pcf
+
+WARNING:PhysDesignRules:367 - The signal <infrastructure_inst/clk_200> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generat
+   e[1].ISERDES_NODELAY_inst_i>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generat
+   e[1].ISERDES_NODELAY_inst_q>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generat
+   e[3].ISERDES_NODELAY_inst_i>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generat
+   e[3].ISERDES_NODELAY_inst_q>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generat
+   e[5].ISERDES_NODELAY_inst_i>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generat
+   e[5].ISERDES_NODELAY_inst_q>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generat
+   e[11].ISERDES_NODELAY_inst_i>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generat
+   e[11].ISERDES_NODELAY_inst_q>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generat
+   e[0].ISERDES_NODELAY_inst_i>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generat
+   e[0].ISERDES_NODELAY_inst_q>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generat
+   e[2].ISERDES_NODELAY_inst_i>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generat
+   e[2].ISERDES_NODELAY_inst_q>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generat
+   e[4].ISERDES_NODELAY_inst_i>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generat
+   e[4].ISERDES_NODELAY_inst_q>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_i_generat
+   e[6].ISERDES_NODELAY_inst_i>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+WARNING:PhysDesignRules:2165 - Issue with pin connections and/or configuration
+   on
+   block:<snap2in_adc_mkid_4x/snap2in_adc_mkid_4x/ISERDES_NODELAY_inst_q_generat
+   e[6].ISERDES_NODELAY_inst_q>:<ISERDESE1_ISERDESE1>.  Useless CE2 input pin.
+   With NUM_CE set 1, the CE2 input pin is being ignored.
+DRC detected 0 errors and 17 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

@@ -1,0 +1,1 @@
+/opt/Xilinx/14.7/ISE_DS/ISE/sysgen/bin/lin64/saferun -a /home/ulloaroach2/design/test_adc/snapshot_roach2/sysgen/snapshot_roach2_cw_import.log -- /opt/Xilinx/14.7/ISE_DS/ISE//bin/lin64/xtclsh ProjectGeneration.tcl

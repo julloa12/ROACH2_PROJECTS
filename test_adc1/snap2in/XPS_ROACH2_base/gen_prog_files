@@ -1,0 +1,9 @@
+#!/bin/bash
+cp implementation/system.bit ../bit_files/snap2in_2019_Sep_03_1340.bit
+./mkbof_64 -o implementation/system.bof -s core_info.tab -t 3 implementation/system.bin
+cp implementation/system.bof ../bit_files/snap2in_2019_Sep_03_1340.bof
+cp design_info.tab ../bit_files/snap2in_2019_Sep_03_1340.info
+gzip -c ../bit_files/snap2in_2019_Sep_03_1340.bof  > ../bit_files/snap2in_2019_Sep_03_1340.bof.gz
+gzip -c implementation/system.bin > implementation/system.bin.gz
+cat implementation/system.bin.gz >> /home/ulloaroach2/design/test_adc1/snap2in/XPS_ROACH2_base/extended_info.kcpfpg
+cp extended_info.kcpfpg ../bit_files/snap2in_2019_Sep_03_1340.fpg

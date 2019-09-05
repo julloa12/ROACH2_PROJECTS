@@ -1,0 +1,1 @@
+run -ifn xst_snap2in.prj -ifmt mixed -ofn snap2in_cw.ngc -ofmt NGC -p xc6vsx475t-1ff1759 -ent snap2in_cw -keep_hierarchy NO -iobuf YES -bus_delimiter () -top snap2in_cw -hierarchy_separator / -report_timing_constraint_problems warning -register_balancing no -iob Auto -uc snap2in_cw.xcf -write_timing_constraints yes

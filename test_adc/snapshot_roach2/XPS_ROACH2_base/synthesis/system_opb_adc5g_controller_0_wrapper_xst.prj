@@ -1,0 +1,2 @@
+verilog opb_adc5g_controller_v1_00_a /home/ulloaroach2/design/test_adc/snapshot_roach2/XPS_ROACH2_base/pcores/opb_adc5g_controller_v1_00_a/hdl/verilog/opb_adc5g_controller.v
+verilog work ../hdl/system_opb_adc5g_controller_0_wrapper.v
